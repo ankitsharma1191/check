@@ -56,3 +56,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "newrelic_rpm"
 gem 'devise'
+gem 'bootstrap', '~> 5.0.1'
+gem 'jquery-rails'

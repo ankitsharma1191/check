@@ -398,3 +398,87 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 4412)
 
 
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:00:40 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3933)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 4516)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:06:47 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 278)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /root/rails/check/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 771b95e8bf22bda9820d
+Version: webpack 4.46.0
+Time: 1581ms
+Built at: 05/22/2021 10:06:57 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1618bbd088f77aaef257.js    125 KiB  application  [emitted] [immutable]  application
+js/application-1618bbd088f77aaef257.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-1618bbd088f77aaef257.js js/application-1618bbd088f77aaef257.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 563 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 9172.9ms | Allocations: 78155)
+Completed 200 OK in 9211ms (Views: 9178.9ms | ActiveRecord: 0.0ms | Allocations: 80837)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 22:07:05 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (5.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 86ms (ActiveRecord: 17.7ms | Allocations: 10273)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:07:05 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 6848)
+Completed 200 OK in 47ms (Views: 44.6ms | ActiveRecord: 0.0ms | Allocations: 7320)
+
+
+Started GET "/users/sign_up" for 192.168.0.14 at 2021-05-22 22:07:19 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 22ms (ActiveRecord: 4.2ms | Allocations: 1860)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:07:19 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 6821)
+Completed 200 OK in 60ms (Views: 55.7ms | ActiveRecord: 0.0ms | Allocations: 7291)
+
+
