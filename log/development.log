@@ -482,3 +482,2669 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 60ms (Views: 55.7ms | ActiveRecord: 0.0ms | Allocations: 7291)
 
 
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:09:56 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 278)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.0ms | Allocations: 13879)
+Completed 200 OK in 87ms (Views: 63.0ms | ActiveRecord: 0.0ms | Allocations: 16562)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 22:10:01 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 70ms (ActiveRecord: 14.1ms | Allocations: 10273)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:10:01 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.7ms | Allocations: 6842)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.0ms | Allocations: 7313)
+
+
+Started GET "/users/sign_up" for 192.168.0.14 at 2021-05-22 22:10:09 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (5.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 19ms (ActiveRecord: 5.3ms | Allocations: 1874)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:10:09 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.4ms | Allocations: 6832)
+Completed 200 OK in 65ms (Views: 62.2ms | ActiveRecord: 0.0ms | Allocations: 7301)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:16:53 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.8ms | Allocations: 6838)
+Completed 200 OK in 38ms (Views: 35.7ms | Allocations: 7299)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:16:55 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 6837)
+Completed 200 OK in 39ms (Views: 36.4ms | Allocations: 7307)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:16:56 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 6831)
+Completed 200 OK in 34ms (Views: 32.1ms | Allocations: 7291)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:17:14 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 276)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 74.0ms | Allocations: 13877)
+Completed 200 OK in 107ms (Views: 80.1ms | ActiveRecord: 0.0ms | Allocations: 16560)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:20:35 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 182)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 7197)
+Completed 200 OK in 43ms (Views: 38.9ms | ActiveRecord: 0.0ms | Allocations: 8476)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:24:31 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 42.6ms | Allocations: 5219)
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 5318)
+Completed 500 Internal Server Error in 54ms (Allocations: 6572)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x00000000031166a8>::Home):
+    1: <nav class="navbar navbar-light bg-light">
+    2: 	<%= link_to Home %>
+    3: 
+    4: </nav>
+  
+app/views/welcome/index.html.erb:2
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:25:46 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 707)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.4ms | Allocations: 7858)
+Completed 200 OK in 40ms (Views: 36.3ms | Allocations: 9227)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:25:48 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 160)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 6905)
+Completed 200 OK in 33ms (Views: 30.7ms | Allocations: 7369)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:27:31 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1484)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 1578)
+Completed 500 Internal Server Error in 15ms (Allocations: 2815)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+	<%= link_to "Home" root %>
+
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:    	<%= link_to "Home" root %>
+3:    
+4:    </nav>
+  
+app/views/welcome/index.html.erb:2: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/index.html.erb:2: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/index.html.erb:2: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/index.html.erb:2: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/index.html.erb:2: syntax error, unexpected local variable or method, expecting ')'
+app/views/welcome/index.html.erb:2: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:27:59 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 32.5ms | Allocations: 4707)
+  Rendered layout layouts/application.html.erb (Duration: 33.4ms | Allocations: 4805)
+Completed 500 Internal Server Error in 43ms (Allocations: 6054)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `root' for #<ActionView::Base:0x0000000000a730>):
+    1: <nav class="navbar navbar-light bg-light">
+    2: 	<%= link_to "Home", root %>
+    3: 
+    4: </nav>
+  
+app/views/welcome/index.html.erb:2
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:28:29 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1488)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1587)
+Completed 500 Internal Server Error in 16ms (Allocations: 2837)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+	<%= link_to "Home", / %>
+
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:    	<%= link_to "Home", / %>
+3:    
+4:    </nav>
+  
+app/views/welcome/index.html.erb:4: unknown regexp options - av
+app/views/welcome/index.html.erb:4: unmatched close parenthesis: / );@output_buffer.safe_append='
+app/views/welcome/index.html.erb:6: unterminated string meets end of file
+app/views/welcome/index.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.html.erb:4: unknown regexp options - av
+app/views/welcome/index.html.erb:4: unmatched close parenthesis: / );@output_buffer.safe_append='
+app/views/welcome/index.html.erb:6: unterminated string meets end of file
+app/views/welcome/index.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.html.erb:4: unknown regexp options - av
+app/views/welcome/index.html.erb:4: unmatched close parenthesis: / );@output_buffer.safe_append='
+app/views/welcome/index.html.erb:6: unterminated string meets end of file
+app/views/welcome/index.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.html.erb:4: unknown regexp options - av
+app/views/welcome/index.html.erb:4: unmatched close parenthesis: / );@output_buffer.safe_append='
+app/views/welcome/index.html.erb:6: unterminated string meets end of file
+app/views/welcome/index.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.html.erb:4: unknown regexp options - av
+app/views/welcome/index.html.erb:4: unmatched close parenthesis: / );@output_buffer.safe_append='
+app/views/welcome/index.html.erb:6: unterminated string meets end of file
+app/views/welcome/index.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/views/welcome/index.html.erb:4: unknown regexp options - av
+app/views/welcome/index.html.erb:4: unmatched close parenthesis: / );@output_buffer.safe_append='
+app/views/welcome/index.html.erb:6: unterminated string meets end of file
+app/views/welcome/index.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:28:38 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1477)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1572)
+Completed 500 Internal Server Error in 9ms (Allocations: 2005)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+	<%= link_to "Home",  %>
+
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:    	<%= link_to "Home",  %>
+3:    
+4:    </nav>
+  
+app/views/welcome/index.html.erb:2: syntax error, unexpected ')'
+app/views/welcome/index.html.erb:6: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:2: syntax error, unexpected ')'
+app/views/welcome/index.html.erb:6: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:2: syntax error, unexpected ')'
+app/views/welcome/index.html.erb:6: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:2: syntax error, unexpected ')'
+app/views/welcome/index.html.erb:6: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:2: syntax error, unexpected ')'
+app/views/welcome/index.html.erb:6: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:2: syntax error, unexpected ')'
+app/views/welcome/index.html.erb:6: syntax error, unexpected `end', expecting ')'
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:28:49 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 250)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.9ms | Allocations: 7266)
+Completed 200 OK in 45ms (Views: 40.9ms | Allocations: 8531)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:31:47 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 558)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.3ms | Allocations: 7559)
+Completed 200 OK in 43ms (Views: 39.3ms | Allocations: 8818)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:33:27 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 7611)
+Completed 200 OK in 49ms (Views: 44.7ms | Allocations: 8877)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:33:39 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 7597)
+Completed 200 OK in 44ms (Views: 40.5ms | Allocations: 8856)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:34:20 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 64.7ms | Allocations: 5016)
+  Rendered layout layouts/application.html.erb (Duration: 65.6ms | Allocations: 5109)
+Completed 500 Internal Server Error in 76ms (Allocations: 6340)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `welcome_path' for #<ActionView::Base:0x0000000000bec8>):
+    3: 
+    4: <ul class="navbar-nav mr-auto">
+    5:   <li class="nav-item active">
+    6:     <%= link_to 'Home', welcome_path, class: 'nav-link' %>
+    7:   </li>
+    8:   <li class="nav-item">
+    9:     <%= link_to 'About', about_path, class: 'nav-link' %>
+  
+app/views/welcome/index.html.erb:6
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:34:49 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 48.4ms | Allocations: 5014)
+  Rendered layout layouts/application.html.erb (Duration: 49.1ms | Allocations: 5107)
+Completed 500 Internal Server Error in 56ms (Allocations: 6344)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for #<ActionView::Base:0x0000000000c0f8>):
+     6:     <%= link_to 'Home', 'welcome#index', class: 'nav-link' %>
+     7:   </li>
+     8:   <li class="nav-item">
+     9:     <%= link_to 'About', about_path, class: 'nav-link' %>
+    10:   </li>
+    11:   <li class="nav-item">
+    12:     <%= link_to 'Contact', contact_path, class: 'nav-link' %>
+  
+app/views/welcome/index.html.erb:9
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:36:21 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (4.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 97.0ms | Allocations: 10688)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 123.7ms | Allocations: 17567)
+Completed 200 OK in 133ms (Views: 128.5ms | ActiveRecord: 23.4ms | Allocations: 18834)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:37:16 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 1723)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.7ms | Allocations: 8724)
+Completed 200 OK in 66ms (Views: 55.5ms | ActiveRecord: 6.1ms | Allocations: 9985)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:37:18 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (19.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 29.7ms | Allocations: 1468)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.5ms | Allocations: 8218)
+Completed 200 OK in 65ms (Views: 42.4ms | ActiveRecord: 19.7ms | Allocations: 8680)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 22:37:23 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 1556)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.1ms | Allocations: 9003)
+Completed 200 OK in 59ms (Views: 49.9ms | ActiveRecord: 6.5ms | Allocations: 9494)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 22:37:26 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.7ms | Allocations: 8165)
+Completed 200 OK in 48ms (Views: 39.6ms | ActiveRecord: 5.7ms | Allocations: 8634)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 22:37:27 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 8166)
+Completed 200 OK in 48ms (Views: 39.6ms | ActiveRecord: 5.9ms | Allocations: 8636)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:37:51 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1625)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1719)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 2957)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-light bg-light">
+<%= link_to 'Myinfotech', root_path, class: "navbar-brand" %>
+
+<ul class="navbar-nav mr-auto">
+  <li class="nav-item active">
+    <%= link_to 'Home', root_path class: 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to 'About', class: 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to 'Contact',  class: 'nav-link' %>
+  </li>
+  <% if user_signed_in? %>
+    <li class="nav-item">
+      <%= link_to 'Quizzes', class: 'nav-link' %>
+    </li>
+    <li class="nav-item">
+      <%= link_to 'My Quizzes',  class: 'nav-link' %>
+    </li>
+  <% end %>
+</ul>
+
+
+</nav>
+):
+1:    <nav class="navbar navbar-light bg-light">
+2:    <%= link_to 'Myinfotech', root_path, class: "navbar-brand" %>
+3:    
+4:    <ul class="navbar-nav mr-auto">
+5:      <li class="nav-item active">
+6:        <%= link_to 'Home', root_path class: 'nav-link' %>
+7:      </li>
+8:      <li class="nav-item">
+9:        <%= link_to 'About', class: 'nav-link' %>
+10:      </li>
+11:      <li class="nav-item">
+12:        <%= link_to 'Contact',  class: 'nav-link' %>
+13:      </li>
+14:      <% if user_signed_in? %>
+15:        <li class="nav-item">
+16:          <%= link_to 'Quizzes', class: 'nav-link' %>
+17:        </li>
+18:        <li class="nav-item">
+19:          <%= link_to 'My Quizzes',  class: 'nav-link' %>
+20:        </li>
+21:      <% end %>
+22:    </ul>
+23:    
+24:    
+25:    </nav>
+  
+app/views/welcome/index.html.erb:6: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/welcome/index.html.erb:6: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/welcome/index.html.erb:6: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/welcome/index.html.erb:6: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/welcome/index.html.erb:6: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/welcome/index.html.erb:6: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:38:11 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 1645)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.3ms | Allocations: 8642)
+Completed 200 OK in 59ms (Views: 48.5ms | ActiveRecord: 5.9ms | Allocations: 9907)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:38:14 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.7ms | Allocations: 1418)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.4ms | Allocations: 8877)
+Completed 200 OK in 62ms (Views: 53.4ms | ActiveRecord: 5.8ms | Allocations: 9341)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:38:15 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (4.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 1410)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.7ms | Allocations: 8154)
+Completed 200 OK in 57ms (Views: 49.6ms | ActiveRecord: 4.9ms | Allocations: 8618)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:38:15 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 12.8ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 8123)
+Completed 200 OK in 44ms (Views: 36.9ms | ActiveRecord: 4.8ms | Allocations: 8586)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:40:05 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 1658)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4432.2ms | Allocations: 63498)
+Completed 200 OK in 4441ms (Views: 4431.2ms | ActiveRecord: 5.8ms | Allocations: 64763)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:40:24 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 1419)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3500.2ms | Allocations: 61805)
+Completed 200 OK in 3504ms (Views: 3496.0ms | ActiveRecord: 5.7ms | Allocations: 62267)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:40:37 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3687.2ms | Allocations: 65042)
+Completed 200 OK in 3691ms (Views: 3682.8ms | ActiveRecord: 5.9ms | Allocations: 65503)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:40:57 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.5ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3534.8ms | Allocations: 62374)
+Completed 200 OK in 3539ms (Views: 3530.6ms | ActiveRecord: 5.8ms | Allocations: 62834)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:42:02 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3547.0ms | Allocations: 62025)
+Completed 200 OK in 3551ms (Views: 3542.9ms | ActiveRecord: 5.9ms | Allocations: 62485)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:42:58 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.1ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3435.2ms | Allocations: 62619)
+Completed 200 OK in 3440ms (Views: 3430.4ms | ActiveRecord: 6.2ms | Allocations: 63079)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:43:04 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.9ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.3ms | Allocations: 8154)
+Completed 200 OK in 49ms (Views: 40.3ms | ActiveRecord: 6.0ms | Allocations: 8616)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:43:23 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3426.1ms | Allocations: 62617)
+Completed 200 OK in 3430ms (Views: 3422.0ms | ActiveRecord: 5.6ms | Allocations: 63077)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:44:11 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3389.4ms | Allocations: 62433)
+Completed 200 OK in 3393ms (Views: 3385.0ms | ActiveRecord: 5.8ms | Allocations: 62893)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:44:20 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 8314)
+Completed 200 OK in 59ms (Views: 50.4ms | ActiveRecord: 6.1ms | Allocations: 8775)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:44:34 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (17.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 28.0ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3491.9ms | Allocations: 67321)
+Completed 200 OK in 3496ms (Views: 3476.1ms | ActiveRecord: 17.5ms | Allocations: 67781)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:45:01 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3522.5ms | Allocations: 61850)
+Completed 200 OK in 3527ms (Views: 3518.5ms | ActiveRecord: 5.9ms | Allocations: 62310)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:45:18 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3385.8ms | Allocations: 61976)
+Completed 200 OK in 3390ms (Views: 3381.8ms | ActiveRecord: 5.8ms | Allocations: 62437)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:45:36 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3478.9ms | Allocations: 64454)
+Completed 200 OK in 3483ms (Views: 3474.7ms | ActiveRecord: 5.8ms | Allocations: 64915)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:46:05 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3396.7ms | Allocations: 61971)
+Completed 200 OK in 3400ms (Views: 3392.5ms | ActiveRecord: 5.6ms | Allocations: 62432)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:46:26 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.9ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3401.0ms | Allocations: 63065)
+Completed 200 OK in 3405ms (Views: 3396.5ms | ActiveRecord: 5.9ms | Allocations: 63526)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:46:47 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.7ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3476.2ms | Allocations: 63163)
+Completed 200 OK in 3481ms (Views: 3471.5ms | ActiveRecord: 6.3ms | Allocations: 63624)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:46:57 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 8157)
+Completed 200 OK in 66ms (Views: 57.1ms | ActiveRecord: 5.8ms | Allocations: 8617)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:46:59 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (4.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.9ms | Allocations: 8163)
+Completed 200 OK in 92ms (Views: 33.9ms | ActiveRecord: 4.3ms | Allocations: 8624)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:47:00 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 8153)
+Completed 200 OK in 51ms (Views: 43.3ms | ActiveRecord: 5.7ms | Allocations: 8613)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:47:08 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3647.7ms | Allocations: 61940)
+Completed 200 OK in 3652ms (Views: 3643.4ms | ActiveRecord: 5.9ms | Allocations: 62401)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:49:27 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 18.7ms | Allocations: 1661)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.1ms | Allocations: 8663)
+Completed 200 OK in 62ms (Views: 52.2ms | ActiveRecord: 6.0ms | Allocations: 9929)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:51:30 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 18.2ms | Allocations: 1658)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.5ms | Allocations: 8665)
+Completed 200 OK in 61ms (Views: 50.4ms | ActiveRecord: 5.9ms | Allocations: 9932)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:51:32 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.7ms | Allocations: 1419)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.0ms | Allocations: 8165)
+Completed 200 OK in 51ms (Views: 43.0ms | ActiveRecord: 5.8ms | Allocations: 8627)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:51:33 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.1ms | Allocations: 8153)
+Completed 200 OK in 56ms (Views: 47.8ms | ActiveRecord: 5.9ms | Allocations: 8614)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:51:34 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.3ms | Allocations: 8116)
+Completed 200 OK in 48ms (Views: 40.2ms | ActiveRecord: 5.7ms | Allocations: 8576)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:51:34 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.9ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.7ms | Allocations: 8117)
+Completed 200 OK in 53ms (Views: 44.5ms | ActiveRecord: 5.9ms | Allocations: 8578)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:51:49 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3471.0ms | Allocations: 61937)
+Completed 200 OK in 3475ms (Views: 3466.2ms | ActiveRecord: 6.4ms | Allocations: 62398)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:52:06 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 17.9ms | Allocations: 1633)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.6ms | Allocations: 8625)
+Completed 200 OK in 59ms (Views: 48.8ms | ActiveRecord: 5.9ms | Allocations: 9892)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:52:10 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (4.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 1392)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.9ms | Allocations: 8126)
+Completed 200 OK in 43ms (Views: 36.7ms | ActiveRecord: 4.1ms | Allocations: 8588)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:55:04 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 18.1ms | Allocations: 1657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.1ms | Allocations: 8659)
+Completed 200 OK in 63ms (Views: 53.2ms | ActiveRecord: 6.0ms | Allocations: 9919)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:55:07 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 1419)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.2ms | Allocations: 8167)
+Completed 200 OK in 50ms (Views: 41.2ms | ActiveRecord: 5.8ms | Allocations: 8628)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:55:23 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 1409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 8196)
+Completed 200 OK in 57ms (Views: 49.2ms | ActiveRecord: 5.8ms | Allocations: 8656)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:56:14 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 18.1ms | Allocations: 1706)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.7ms | Allocations: 8753)
+Completed 200 OK in 62ms (Views: 51.9ms | ActiveRecord: 5.9ms | Allocations: 10020)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:56:51 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.7ms | Allocations: 1468)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3602.2ms | Allocations: 61876)
+Completed 200 OK in 3606ms (Views: 3597.7ms | ActiveRecord: 5.9ms | Allocations: 62337)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:57:04 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 17.9ms | Allocations: 1459)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3462.8ms | Allocations: 62721)
+Completed 200 OK in 3467ms (Views: 3458.4ms | ActiveRecord: 5.9ms | Allocations: 63182)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:57:22 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.9ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.5ms | Allocations: 8171)
+Completed 200 OK in 52ms (Views: 43.4ms | ActiveRecord: 5.7ms | Allocations: 8632)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:58:32 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 18.8ms | Allocations: 1712)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.0ms | Allocations: 8713)
+Completed 200 OK in 67ms (Views: 57.3ms | ActiveRecord: 6.1ms | Allocations: 9979)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:58:56 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 17.7ms | Allocations: 1704)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.5ms | Allocations: 8706)
+Completed 200 OK in 60ms (Views: 49.9ms | ActiveRecord: 5.9ms | Allocations: 9965)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:58:57 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 1468)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 8213)
+Completed 200 OK in 50ms (Views: 41.8ms | ActiveRecord: 6.0ms | Allocations: 8674)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:58:58 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.1ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.5ms | Allocations: 8166)
+Completed 200 OK in 63ms (Views: 55.0ms | ActiveRecord: 6.1ms | Allocations: 8627)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:58:58 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.9ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.1ms | Allocations: 8166)
+Completed 200 OK in 47ms (Views: 39.0ms | ActiveRecord: 5.7ms | Allocations: 8626)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:59:25 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 1458)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3463.8ms | Allocations: 62109)
+Completed 200 OK in 3467ms (Views: 3459.4ms | ActiveRecord: 5.8ms | Allocations: 62570)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 22:59:33 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.3ms | Allocations: 1457)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 8206)
+Completed 200 OK in 50ms (Views: 42.0ms | ActiveRecord: 5.8ms | Allocations: 8675)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:59:37 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.4ms | Allocations: 8167)
+Completed 200 OK in 57ms (Views: 48.2ms | ActiveRecord: 5.9ms | Allocations: 8631)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 22:59:52 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3456.3ms | Allocations: 62498)
+Completed 200 OK in 3460ms (Views: 3451.7ms | ActiveRecord: 6.0ms | Allocations: 62959)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:00:08 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.2ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3687.4ms | Allocations: 62439)
+Completed 200 OK in 3692ms (Views: 3683.5ms | ActiveRecord: 5.9ms | Allocations: 62900)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:00:23 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 1458)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.6ms | Allocations: 8203)
+Completed 200 OK in 54ms (Views: 44.9ms | ActiveRecord: 6.5ms | Allocations: 8665)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:00:24 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.1ms | Allocations: 1458)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.3ms | Allocations: 8203)
+Completed 200 OK in 60ms (Views: 51.2ms | ActiveRecord: 5.9ms | Allocations: 8663)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:00:32 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.4ms | Allocations: 8166)
+Completed 200 OK in 64ms (Views: 55.5ms | ActiveRecord: 5.7ms | Allocations: 8627)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:00:59 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 20.6ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3609.9ms | Allocations: 63221)
+Completed 200 OK in 3615ms (Views: 3605.7ms | ActiveRecord: 5.8ms | Allocations: 63681)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:01:12 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 1684)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 56.9ms | Allocations: 8676)
+Completed 200 OK in 68ms (Views: 57.8ms | ActiveRecord: 6.0ms | Allocations: 9941)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:01:14 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 1441)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.8ms | Allocations: 8175)
+Completed 200 OK in 53ms (Views: 44.5ms | ActiveRecord: 6.0ms | Allocations: 8636)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:01:14 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.3ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.6ms | Allocations: 8170)
+Completed 200 OK in 50ms (Views: 41.6ms | ActiveRecord: 5.6ms | Allocations: 8631)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:01:15 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.1ms | Allocations: 8165)
+Completed 200 OK in 52ms (Views: 44.2ms | ActiveRecord: 5.6ms | Allocations: 8625)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:01:16 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 1431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.4ms | Allocations: 8166)
+Completed 200 OK in 50ms (Views: 42.1ms | ActiveRecord: 5.9ms | Allocations: 8627)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:03:41 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 1458)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3466.7ms | Allocations: 61866)
+Completed 200 OK in 3471ms (Views: 3462.2ms | ActiveRecord: 6.0ms | Allocations: 62326)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:03:49 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 32ms (ActiveRecord: 4.5ms | Allocations: 5073)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:03:49 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1457)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 8219)
+Completed 200 OK in 39ms (Views: 33.4ms | ActiveRecord: 4.0ms | Allocations: 8688)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:04:02 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.5ms | Allocations: 1458)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.9ms | Allocations: 8203)
+Completed 200 OK in 50ms (Views: 41.9ms | ActiveRecord: 5.8ms | Allocations: 8664)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:05:36 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 91.1ms | Allocations: 6190)
+  Rendered layout layouts/application.html.erb (Duration: 91.9ms | Allocations: 6283)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 5.0ms | Allocations: 7520)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `destroy_user_session' for #<ActionView::Base:0x00000000014be0>
+Did you mean?  destroy_user_session_url
+               destroy_user_session_path):
+    16:       <%= link_to 'Dashboard', class: 'nav-link' %>
+    17:     </li>
+    18:     <li class="nav-item">
+    19:       <%= link_to 'Logout', destroy_user_session,  class: 'nav-link' %>
+    20:     </li>
+    21:   <% end %>
+    22: </ul>
+  
+app/views/welcome/index.html.erb:19
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:06:20 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 18.4ms | Allocations: 1657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.5ms | Allocations: 8663)
+Completed 200 OK in 63ms (Views: 52.7ms | ActiveRecord: 5.8ms | Allocations: 9929)
+
+
+Started GET "/users/sign_out" for 192.168.0.14 at 2021-05-22 23:06:22 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:06:30 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 17ms (ActiveRecord: 5.0ms | Allocations: 1762)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:06:30 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 1421)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 8175)
+Completed 200 OK in 42ms (Views: 35.3ms | ActiveRecord: 4.8ms | Allocations: 8646)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:09:36 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (4.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:14
+  Rendered welcome/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 1666)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 8668)
+Completed 200 OK in 60ms (Views: 48.5ms | ActiveRecord: 4.6ms | Allocations: 9934)
+
+
+Started DELETE "/users/sign_out" for 192.168.0.14 at 2021-05-22 23:09:38 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Completed 302 Found in 47ms (ActiveRecord: 5.0ms | Allocations: 4573)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:09:38 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 413)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 7174)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms | Allocations: 7639)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:09:42 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 7514)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.0ms | Allocations: 8197)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:09:47 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 7118)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.0ms | Allocations: 7583)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:09:49 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 7113)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.0ms | Allocations: 7579)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:12:17 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1663)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 1757)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2998)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<%= link_to 'Myinfotech', root_path, class: "navbar-brand" %>
+
+<ul class="navbar-nav mr-auto navbar-right">
+  <li class="nav-item ">
+    <%= link_to 'Home',  class: 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to 'Services', class: 'nav-link' %>
+  </li>	
+  <li class="nav-item">
+    <%= link_to 'Trainings',  class: 'nav-link' %>
+  </li>
+  <% if user_signed_in? %>
+    <li class="navbar-left">
+      <%= link_to 'Dashboard', class: 'nav-link' %>
+    </li>
+    <li class="nav-item">
+      <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: 'nav-link' %>
+    </li>
+    <%= else %>
+    <%= link_to 'Sign Up', new_user_registration_path %>
+  <% end %>
+</ul>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+2:    <%= link_to 'Myinfotech', root_path, class: "navbar-brand" %>
+3:    
+4:    <ul class="navbar-nav mr-auto navbar-right">
+5:      <li class="nav-item ">
+6:        <%= link_to 'Home',  class: 'nav-link' %>
+7:      </li>
+8:      <li class="nav-item">
+9:        <%= link_to 'Services', class: 'nav-link' %>
+10:      </li>	
+11:      <li class="nav-item">
+12:        <%= link_to 'Trainings',  class: 'nav-link' %>
+13:      </li>
+14:      <% if user_signed_in? %>
+15:        <li class="navbar-left">
+16:          <%= link_to 'Dashboard', class: 'nav-link' %>
+17:        </li>
+18:        <li class="nav-item">
+19:          <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: 'nav-link' %>
+20:        </li>
+21:        <%= else %>
+22:        <%= link_to 'Sign Up', new_user_registration_path %>
+23:      <% end %>
+24:    </ul>
+25:    </nav>
+  
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:12:29 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1647)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1741)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2177)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<%= link_to 'Myinfotech', root_path, class: "navbar-brand" %>
+
+<ul class="navbar-nav mr-auto navbar-right">
+  <li class="nav-item ">
+    <%= link_to 'Home',  class: 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to 'Services', class: 'nav-link' %>
+  </li>	
+  <li class="nav-item">
+    <%= link_to 'Trainings',  class: 'nav-link' %>
+  </li>
+  <% if user_signed_in? %>
+    <li class="navbar-left">
+      <%= link_to 'Dashboard', class: 'nav-link' %>
+    </li>
+    <li class="nav-item">
+      <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: 'nav-link' %>
+    </li>
+    <%= else %>
+    <%= link_to 'Sign Up', new_user_registration_path %>
+  <% end %>
+</ul>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+2:    <%= link_to 'Myinfotech', root_path, class: "navbar-brand" %>
+3:    
+4:    <ul class="navbar-nav mr-auto navbar-right">
+5:      <li class="nav-item ">
+6:        <%= link_to 'Home',  class: 'nav-link' %>
+7:      </li>
+8:      <li class="nav-item">
+9:        <%= link_to 'Services', class: 'nav-link' %>
+10:      </li>	
+11:      <li class="nav-item">
+12:        <%= link_to 'Trainings',  class: 'nav-link' %>
+13:      </li>
+14:      <% if user_signed_in? %>
+15:        <li class="navbar-left">
+16:          <%= link_to 'Dashboard', class: 'nav-link' %>
+17:        </li>
+18:        <li class="nav-item">
+19:          <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: 'nav-link' %>
+20:        </li>
+21:        <%= else %>
+22:        <%= link_to 'Sign Up', new_user_registration_path %>
+23:      <% end %>
+24:    </ul>
+25:    </nav>
+  
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:21: syntax error, unexpected `else'
+app/views/welcome/index.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/welcome/index.html.erb:27: syntax error, unexpected `end', expecting ')'
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:13:03 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 684)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.4ms | Allocations: 7690)
+Completed 200 OK in 59ms (Views: 54.6ms | ActiveRecord: 0.0ms | Allocations: 8958)
+
+
+Started GET "/users/sign_up" for 192.168.0.14 at 2021-05-22 23:13:06 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_error_messages.html.erb (Duration: 2.2ms | Allocations: 274)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 3.4ms | Allocations: 583)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 22.3ms | Allocations: 3359)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.5ms | Allocations: 10074)
+Completed 200 OK in 59ms (Views: 55.0ms | ActiveRecord: 0.0ms | Allocations: 11859)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:14:16 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 718)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 7719)
+Completed 200 OK in 52ms (Views: 47.9ms | ActiveRecord: 0.0ms | Allocations: 8986)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:14:21 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 4.5ms | Allocations: 658)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 20.4ms | Allocations: 2828)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.0ms | Allocations: 9520)
+Completed 200 OK in 96ms (Views: 67.1ms | ActiveRecord: 0.0ms | Allocations: 13260)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:14:27 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 212)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1598)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.4ms | Allocations: 8635)
+Completed 200 OK in 59ms (Views: 55.1ms | ActiveRecord: 0.0ms | Allocations: 9327)
+
+
+Started GET "/users/password/new" for 192.168.0.14 at 2021-05-22 23:14:46 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/passwords/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_error_messages.html.erb (Duration: 2.3ms | Allocations: 267)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 205)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/passwords/new.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1503)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 8186)
+Completed 200 OK in 59ms (Views: 54.8ms | ActiveRecord: 0.0ms | Allocations: 9508)
+
+
+Started GET "/users/sign_up" for 192.168.0.14 at 2021-05-22 23:14:50 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 95)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 155)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 12.8ms | Allocations: 1529)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.5ms | Allocations: 8311)
+Completed 200 OK in 53ms (Views: 49.5ms | ActiveRecord: 0.0ms | Allocations: 9574)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:15:29 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 3.6ms | Allocations: 591)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 12.3ms | Allocations: 2008)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.7ms | Allocations: 9054)
+Completed 200 OK in 54ms (Views: 50.0ms | Allocations: 11017)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:15:31 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 202)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 7884)
+Completed 200 OK in 42ms (Views: 38.7ms | Allocations: 8558)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:15:32 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 202)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 7877)
+Completed 200 OK in 42ms (Views: 38.5ms | Allocations: 8548)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:15:32 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 202)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 7877)
+Completed 200 OK in 40ms (Views: 36.8ms | Allocations: 8548)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:15:33 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 202)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.4ms | Allocations: 7877)
+Completed 200 OK in 44ms (Views: 40.3ms | Allocations: 8548)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:16:15 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 214)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 19.2ms | Allocations: 1126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3434.0ms | Allocations: 63367)
+Completed 200 OK in 3439ms (Views: 3435.8ms | Allocations: 64039)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:16:40 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 637)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 7377)
+Completed 200 OK in 39ms (Views: 35.5ms | Allocations: 8416)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:17:11 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3495.1ms | Allocations: 61030)
+Completed 200 OK in 3499ms (Views: 3496.6ms | Allocations: 61487)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:17:24 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3509.9ms | Allocations: 61999)
+Completed 200 OK in 3514ms (Views: 3511.6ms | Allocations: 62455)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:17:37 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 389)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3438.1ms | Allocations: 63973)
+Completed 200 OK in 3442ms (Views: 3439.6ms | Allocations: 64429)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:17:43 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 7113)
+Completed 200 OK in 41ms (Views: 38.3ms | Allocations: 7570)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:18:00 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3580.6ms | Allocations: 60776)
+Completed 200 OK in 3584ms (Views: 3582.1ms | Allocations: 61233)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:18:07 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.9ms | Allocations: 7113)
+Completed 200 OK in 41ms (Views: 38.6ms | Allocations: 7570)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:18:17 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3379.9ms | Allocations: 61523)
+Completed 200 OK in 3383ms (Views: 3381.3ms | Allocations: 61980)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:18:32 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.2ms | Allocations: 7133)
+Completed 200 OK in 41ms (Views: 38.9ms | Allocations: 7598)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:18:34 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 7112)
+Completed 200 OK in 39ms (Views: 37.3ms | Allocations: 7577)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:18:34 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 7116)
+Completed 200 OK in 38ms (Views: 36.0ms | Allocations: 7578)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:18:39 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.7ms | Allocations: 7112)
+Completed 200 OK in 40ms (Views: 37.3ms | Allocations: 7577)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:18:39 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 7112)
+Completed 200 OK in 36ms (Views: 33.7ms | Allocations: 7577)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:18:40 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 7132)
+Completed 200 OK in 38ms (Views: 35.9ms | Allocations: 7597)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:18:55 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 601)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 7602)
+Completed 200 OK in 46ms (Views: 42.0ms | Allocations: 8869)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:18:57 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 339)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 7075)
+Completed 200 OK in 44ms (Views: 41.6ms | Allocations: 7713)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:18:58 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 329)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 7070)
+Completed 200 OK in 37ms (Views: 34.9ms | Allocations: 7531)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:19:46 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 588)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.3ms | Allocations: 7580)
+Completed 200 OK in 44ms (Views: 40.1ms | Allocations: 8842)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:19:48 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 339)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 7073)
+Completed 200 OK in 34ms (Views: 32.0ms | Allocations: 7530)
+
+
+Started GET "/users/sign_out" for 192.168.0.14 at 2021-05-22 23:19:56 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:19:59 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 329)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.2ms | Allocations: 7067)
+Completed 200 OK in 38ms (Views: 35.8ms | Allocations: 7523)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:20:01 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 329)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 7063)
+Completed 200 OK in 39ms (Views: 36.4ms | Allocations: 7522)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:20:32 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 586)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.8ms | Allocations: 7587)
+Completed 200 OK in 57ms (Views: 52.8ms | Allocations: 8849)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:21:15 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 601)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 7604)
+Completed 200 OK in 43ms (Views: 39.0ms | Allocations: 8867)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:21:16 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 350)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.8ms | Allocations: 7094)
+Completed 200 OK in 38ms (Views: 35.6ms | Allocations: 7551)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:21:17 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 340)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 7084)
+Completed 200 OK in 40ms (Views: 38.2ms | Allocations: 7540)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:21:17 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 329)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 7457)
+Completed 200 OK in 42ms (Views: 39.6ms | Allocations: 7913)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:21:28 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 633)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 7624)
+Completed 200 OK in 47ms (Views: 43.5ms | Allocations: 8879)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:22:06 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 673)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.7ms | Allocations: 7668)
+Completed 200 OK in 46ms (Views: 42.5ms | Allocations: 8923)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:22:07 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 3.7ms | Allocations: 580)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 16.3ms | Allocations: 2154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.2ms | Allocations: 8933)
+Completed 200 OK in 59ms (Views: 55.9ms | Allocations: 10752)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:22:29 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 406)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3512.4ms | Allocations: 61041)
+Completed 200 OK in 3516ms (Views: 3513.9ms | Allocations: 61499)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:22:41 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 202)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 1127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.2ms | Allocations: 8162)
+Completed 200 OK in 61ms (Views: 56.9ms | Allocations: 9321)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:23:02 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 213)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3399.2ms | Allocations: 63533)
+Completed 200 OK in 3404ms (Views: 3400.9ms | Allocations: 64204)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:23:07 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 7142)
+Completed 200 OK in 42ms (Views: 39.6ms | Allocations: 7603)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:23:09 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.8ms | Allocations: 7129)
+Completed 200 OK in 40ms (Views: 37.7ms | Allocations: 7585)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:23:32 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3463.9ms | Allocations: 62097)
+Completed 200 OK in 3468ms (Views: 3465.4ms | Allocations: 62553)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:23:38 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 406)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.8ms | Allocations: 7156)
+Completed 200 OK in 42ms (Views: 39.8ms | Allocations: 7614)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:23:45 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 406)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3438.1ms | Allocations: 62004)
+Completed 200 OK in 3442ms (Views: 3440.1ms | Allocations: 62461)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:25:03 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 691)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.4ms | Allocations: 7692)
+Completed 200 OK in 64ms (Views: 59.7ms | Allocations: 8954)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:25:18 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 417)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3492.4ms | Allocations: 62183)
+Completed 200 OK in 3496ms (Views: 3493.8ms | Allocations: 62641)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:25:34 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 406)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 7151)
+Completed 200 OK in 33ms (Views: 31.2ms | Allocations: 7608)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:26:47 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 696)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 7697)
+Completed 200 OK in 38ms (Views: 35.3ms | Allocations: 8958)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:26:51 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 7.1ms | Allocations: 793)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 19.6ms | Allocations: 2235)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.6ms | Allocations: 9026)
+Completed 200 OK in 74ms (Views: 69.3ms | Allocations: 11345)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:26:55 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 212)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1128)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.4ms | Allocations: 8645)
+Completed 200 OK in 51ms (Views: 47.4ms | Allocations: 9323)
+
+
+Started POST "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:27:00 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"ankitsharma.1191@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitsharma.1191@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Completed 302 Found in 419ms (ActiveRecord: 7.9ms | Allocations: 6867)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:27:01 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:15
+  Rendered welcome/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1394)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 8146)
+Completed 200 OK in 24ms (Views: 19.6ms | ActiveRecord: 2.7ms | Allocations: 8614)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:27:22 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:15
+  Rendered welcome/index.html.erb within layouts/application (Duration: 18.7ms | Allocations: 1697)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.8ms | Allocations: 8699)
+Completed 200 OK in 66ms (Views: 55.7ms | ActiveRecord: 6.0ms | Allocations: 9966)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:27:26 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:15
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.6ms | Allocations: 1396)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 8130)
+Completed 200 OK in 47ms (Views: 38.7ms | ActiveRecord: 5.8ms | Allocations: 8601)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:27:30 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:15
+  Rendered welcome/index.html.erb within layouts/application (Duration: 19.9ms | Allocations: 1918)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.9ms | Allocations: 8887)
+Completed 200 OK in 62ms (Views: 53.8ms | ActiveRecord: 5.9ms | Allocations: 9356)
+
+
+Started DELETE "/users/sign_out" for 192.168.0.14 at 2021-05-22 23:27:31 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Completed 302 Found in 21ms (ActiveRecord: 5.0ms | Allocations: 2050)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:27:31 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 396)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.3ms | Allocations: 7140)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.0ms | Allocations: 7602)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-22 23:27:33 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 4.2ms | Allocations: 580)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1987)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 8766)
+Completed 200 OK in 56ms (Views: 52.7ms | ActiveRecord: 0.0ms | Allocations: 10510)
+
+
+Started GET "/users/sign_up" for 192.168.0.14 at 2021-05-22 23:27:37 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_error_messages.html.erb (Duration: 2.2ms | Allocations: 267)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 156)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 13.8ms | Allocations: 1914)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 8701)
+Completed 200 OK in 53ms (Views: 48.9ms | ActiveRecord: 0.0ms | Allocations: 9965)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-22 23:27:39 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 406)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 7150)
+Completed 200 OK in 41ms (Views: 38.0ms | ActiveRecord: 0.0ms | Allocations: 7615)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-22 23:27:41 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 7129)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.0ms | Allocations: 7768)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-23 22:28:45 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (63.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 32.0ms | Allocations: 1303)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1352.4ms | Allocations: 21964)
+Completed 200 OK in 1445ms (Views: 1360.5ms | ActiveRecord: 0.0ms | Allocations: 24582)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-23 22:28:47 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 419)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.7ms | Allocations: 7181)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 0.0ms | Allocations: 7596)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-23 22:28:57 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 33.2ms | Allocations: 659)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 168.9ms | Allocations: 6536)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 238.7ms | Allocations: 13192)
+Completed 200 OK in 306ms (Views: 246.2ms | ActiveRecord: 23.4ms | Allocations: 20001)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-23 22:29:02 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 417)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 76.1ms | Allocations: 7358)
+Completed 200 OK in 83ms (Views: 78.2ms | ActiveRecord: 0.0ms | Allocations: 7834)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-23 22:29:08 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 397)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.2ms | Allocations: 7143)
+Completed 200 OK in 37ms (Views: 34.7ms | ActiveRecord: 0.0ms | Allocations: 7618)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-23 22:29:09 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 405)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 7149)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.0ms | Allocations: 7614)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-23 22:29:31 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 212)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1128)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 7917)
+Completed 200 OK in 42ms (Views: 37.9ms | ActiveRecord: 0.0ms | Allocations: 8613)
+
+
+Started POST "/users/sign_in" for 192.168.0.14 at 2021-05-23 22:29:37 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"ankitsharma.1191@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitsharma.1191@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Completed 302 Found in 551ms (ActiveRecord: 5.1ms | Allocations: 6931)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-23 22:29:38 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:15
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 1405)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 8148)
+Completed 200 OK in 47ms (Views: 38.7ms | ActiveRecord: 5.6ms | Allocations: 8616)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-23 22:29:44 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:15
+  Rendered welcome/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 1386)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.2ms | Allocations: 8288)
+Completed 200 OK in 54ms (Views: 45.3ms | ActiveRecord: 5.6ms | Allocations: 8768)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-23 22:29:48 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/welcome/index.html.erb:15
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.6ms | Allocations: 1401)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.8ms | Allocations: 8135)
+Completed 200 OK in 54ms (Views: 45.7ms | ActiveRecord: 5.7ms | Allocations: 8604)
+
+
+Started DELETE "/users/sign_out" for 192.168.0.14 at 2021-05-23 22:29:49 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Completed 302 Found in 54ms (ActiveRecord: 5.1ms | Allocations: 2468)
+
+
+Started GET "/" for 192.168.0.14 at 2021-05-23 22:29:49 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 7139)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 7601)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-23 22:29:52 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.9ms | Allocations: 7130)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.0ms | Allocations: 7596)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-23 22:29:53 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.8ms | Allocations: 7136)
+Completed 200 OK in 53ms (Views: 50.4ms | ActiveRecord: 0.0ms | Allocations: 7602)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-23 22:29:54 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 7130)
+Completed 200 OK in 60ms (Views: 38.8ms | ActiveRecord: 0.0ms | Allocations: 7595)
+
+
+Started GET "/?class=nav-link" for 192.168.0.14 at 2021-05-23 22:29:55 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"nav-link"}
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 7129)
+Completed 200 OK in 43ms (Views: 40.4ms | ActiveRecord: 0.0ms | Allocations: 7594)
+
+
+Started GET "/users/sign_in" for 192.168.0.14 at 2021-05-23 23:30:13 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 213)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | Allocations: 7914)
+Completed 200 OK in 41ms (Views: 37.1ms | Allocations: 8592)
+
+
+Started GET "/users/sign_up" for 192.168.0.14 at 2021-05-23 23:31:27 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_error_messages.html.erb (Duration: 27.6ms | Allocations: 284)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 202)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 50.0ms | Allocations: 2058)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 77.4ms | Allocations: 8775)
+Completed 200 OK in 88ms (Views: 84.2ms | Allocations: 10130)
+
+
+Started GET "/users/sign_up" for 192.168.0.14 at 2021-05-23 23:35:16 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 106)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 164)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1238)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 8021)
+Completed 200 OK in 39ms (Views: 35.9ms | Allocations: 8629)
+
+
+Started GET "/users/sign_up" for 192.168.0.14 at 2021-05-23 23:35:24 +0530
+Cannot render console from 192.168.0.14! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 106)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 164)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1234)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 8017)
+Completed 200 OK in 45ms (Views: 41.5ms | Allocations: 8624)
+
+
