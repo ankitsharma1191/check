@@ -1,0 +1,28 @@
+<h1 style="text-align: center;"> All Courses</h1>
+
+
+<table class="table table-bordered">
+	<% @courses.each do |course| %>
+
+		<thead>
+			<tr>
+				<th scope="col">Title </th>
+				<th scope="col">CourseName</th>
+     			<th scope="col">Description</th>
+      			<th scope="col">CourseOutline</th>
+			</tr>
+		</thead>
+		<tbody>
+    <tr>
+  		<td><%= course.title %></td>
+      <td><%= course.coursename %></td>
+      <td><%= course.description %></td>
+      <td><%= course.courseoutline %></td>
+
+    </tr>
+
+  </tbody>
+
+
+<% end %>
+</table>
