@@ -10,6 +10,7 @@
 				<th scope="col">CourseName</th>
      			<th scope="col">Description</th>
       			<th scope="col">CourseOutline</th>
+            <th scope="col">Actions</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -18,6 +19,11 @@
       <td><%= course.coursename %></td>
       <td><%= course.description %></td>
       <td><%= course.courseoutline %></td>
+      <td>
+        <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+        <%= link_to("Edit") %>
+        <%= link_to("Delete") %>
+      </td>
 
     </tr>
 

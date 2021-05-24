@@ -1,0 +1,21 @@
+<%= form_for(@course, :url => course_index_path, :method => 'post') do |f| %>
+<div >
+	<%= f.label :category %>
+	<%= f.text_field :title %>
+</div>
+<div >
+	<%= f.label :Name %>
+	<%= f.text_field :coursename %>
+</div>
+<div >
+	<%= f.label :Description %>
+	<%= f.text_field :description %>
+</div>
+<div >
+	<%= f.label :Content %>
+	<%= f.text_field :courseoutline %>
+</div>
+<div >
+	<%= f.submit 'Add' %>
+</div>
+<% end -%>
