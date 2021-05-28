@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
  
-  get 'students/index'
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  resources :students
   get 'services/index'
   root 'welcome#index'
   devise_for :users
