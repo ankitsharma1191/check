@@ -11769,3 +11769,1779 @@ Processing by StudentsController#index as HTML
 Completed 200 OK in 25ms (Views: 16.9ms | ActiveRecord: 2.6ms | Allocations: 9162)
 
 
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:40:13 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (63.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 266)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2863.1ms | Allocations: 57523)
+Completed 200 OK in 3013ms (Views: 2892.1ms | ActiveRecord: 0.0ms | Allocations: 60475)
+
+
+Started GET "/users/sign_in" for 192.168.0.98 at 2021-05-29 23:40:21 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 22.2ms | Allocations: 673)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 182.5ms | Allocations: 7639)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 217.6ms | Allocations: 14597)
+Completed 200 OK in 289ms (Views: 227.6ms | ActiveRecord: 17.1ms | Allocations: 22498)
+
+
+Started POST "/users/sign_in" for 192.168.0.98 at 2021-05-29 23:40:30 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"ankitsharma.1191@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitsharma.1191@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Completed 302 Found in 576ms (ActiveRecord: 5.6ms | Allocations: 7667)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:40:31 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/welcome_controller.rb:3:in `index'
+Redirected to http://192.168.0.2:3000/students
+Completed 302 Found in 8ms (ActiveRecord: 2.8ms | Allocations: 1219)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-29 23:40:31 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 144)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.5ms | Allocations: 7216)
+Completed 200 OK in 74ms (Views: 57.9ms | ActiveRecord: 5.0ms | Allocations: 9879)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-29 23:40:38 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.5ms | Allocations: 7119)
+Completed 200 OK in 51ms (Views: 34.4ms | ActiveRecord: 5.2ms | Allocations: 8994)
+
+
+Started GET "/admin" for 192.168.0.98 at 2021-05-29 23:40:42 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (5.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  [1m[35m (21.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `courses`[0m
+  [1m[36mCourse Load (4.4ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY `courses`.`id` DESC LIMIT 1[0m
+  [1m[35m (5.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY `users`.`id` DESC LIMIT 1[0m
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (Duration: 65.1ms | Allocations: 14054)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_head.html.haml (Duration: 198.1ms | Allocations: 33094)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (Duration: 10.5ms | Allocations: 4016)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_navigation.html.haml (Duration: 23.5ms | Allocations: 9690)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (Duration: 7.9ms | Allocations: 3093)
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 11.5ms | Allocations: 5224)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml (Duration: 351.3ms | Allocations: 72471)
+Completed 200 OK in 1044ms (Views: 373.1ms | ActiveRecord: 98.5ms | Allocations: 142453)
+
+
+Started GET "/admin/?_pjax=%5Bdata-pjax-container%5D" for 192.168.0.98 at 2021-05-29 23:40:51 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#dashboard as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]"}
+  [1m[36mUser Load (8.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  [1m[35m (5.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `courses`[0m
+  [1m[36mCourse Load (4.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY `courses`.`id` DESC LIMIT 1[0m
+  [1m[35m (6.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY `users`.`id` DESC LIMIT 1[0m
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/pjax
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/pjax (Duration: 15.7ms | Allocations: 2260)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 21.3ms | Allocations: 2906)
+Completed 200 OK in 95ms (Views: 26.0ms | ActiveRecord: 29.9ms | Allocations: 11005)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:40:53 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (4.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/welcome_controller.rb:3:in `index'
+Redirected to http://192.168.0.2:3000/students
+Completed 302 Found in 28ms (ActiveRecord: 4.4ms | Allocations: 1208)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-29 23:40:53 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (3.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 7134)
+Completed 200 OK in 39ms (Views: 27.2ms | ActiveRecord: 3.7ms | Allocations: 8981)
+
+
+Started DELETE "/users/sign_out" for 192.168.0.98 at 2021-05-29 23:40:57 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Completed 302 Found in 56ms (ActiveRecord: 5.1ms | Allocations: 2488)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:40:58 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 7120)
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.0ms | Allocations: 7666)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:40:59 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 7096)
+Completed 200 OK in 38ms (Views: 35.4ms | ActiveRecord: 0.0ms | Allocations: 7637)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-29 23:41:01 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.8ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 65.3ms | Allocations: 1131)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 104.2ms | Allocations: 8215)
+Completed 200 OK in 115ms (Views: 104.8ms | ActiveRecord: 5.8ms | Allocations: 9478)
+
+
+Started GET "/dashboard" for 192.168.0.98 at 2021-05-29 23:41:14 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/dashboard"):
+  
+Started GET "/admin" for 192.168.0.98 at 2021-05-29 23:41:19 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#dashboard as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 1464)
+
+
+  
+NoMethodError (undefined method `admin' for nil:NilClass):
+  
+config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:41:26 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 7262)
+Completed 200 OK in 42ms (Views: 38.8ms | ActiveRecord: 0.0ms | Allocations: 7874)
+
+
+Started GET "/users/sign_in" for 192.168.0.98 at 2021-05-29 23:41:28 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 211)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1229)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.9ms | Allocations: 8307)
+Completed 200 OK in 52ms (Views: 47.3ms | ActiveRecord: 0.0ms | Allocations: 9047)
+
+
+Started POST "/users/sign_in" for 192.168.0.98 at 2021-05-29 23:41:37 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"ankitsharma.1191@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (5.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitsharma.1191@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Completed 302 Found in 410ms (ActiveRecord: 5.5ms | Allocations: 3021)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:41:38 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/welcome_controller.rb:3:in `index'
+Redirected to http://192.168.0.2:3000/students
+Completed 302 Found in 7ms (ActiveRecord: 2.3ms | Allocations: 1218)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-29 23:41:38 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 84)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 7161)
+Completed 200 OK in 24ms (Views: 16.3ms | ActiveRecord: 2.4ms | Allocations: 9039)
+
+
+Started GET "/admin" for 192.168.0.98 at 2021-05-29 23:41:43 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (5.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  [1m[35m (5.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `courses`[0m
+  [1m[36mCourse Load (5.3ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY `courses`.`id` DESC LIMIT 1[0m
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  [1m[36mUser Load (5.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY `users`.`id` DESC LIMIT 1[0m
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (Duration: 12.9ms | Allocations: 2292)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_head.html.haml (Duration: 94.8ms | Allocations: 26653)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (Duration: 1.7ms | Allocations: 353)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_navigation.html.haml (Duration: 3.2ms | Allocations: 607)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (Duration: 3.5ms | Allocations: 845)
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 2.7ms | Allocations: 587)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml (Duration: 121.0ms | Allocations: 31539)
+Completed 200 OK in 204ms (Views: 122.9ms | ActiveRecord: 26.6ms | Allocations: 38676)
+
+
+Started GET "/admin/course?_pjax=%5Bdata-pjax-container%5D" for 192.168.0.98 at 2021-05-29 23:41:45 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"course"}
+  [1m[36mUser Load (7.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mCourse Load (6.1ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY courses.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (Duration: 174.4ms | Allocations: 42723)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 186.9ms | Allocations: 44545)
+Completed 200 OK in 234ms (Views: 184.1ms | ActiveRecord: 13.4ms | Allocations: 50108)
+
+
+Started GET "/admin/course/new?_pjax=%5Bdata-pjax-container%5D" for 192.168.0.98 at 2021-05-29 23:41:47 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"course"}
+  [1m[36mUser Load (7.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/_form_field.html.haml (Duration: 7.1ms | Allocations: 1988)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/_form_field.html.haml (Duration: 1.1ms | Allocations: 255)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/_form_field.html.haml (Duration: 1.1ms | Allocations: 255)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/_form_text.html.haml (Duration: 7.2ms | Allocations: 2024)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/_submit_buttons.html.haml (Duration: 27.5ms | Allocations: 10462)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (Duration: 76.2ms | Allocations: 20972)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 87.0ms | Allocations: 23208)
+Completed 200 OK in 111ms (Views: 90.8ms | ActiveRecord: 7.8ms | Allocations: 25385)
+
+
+Started POST "/admin/course/new" for 192.168.0.98 at 2021-05-29 23:43:12 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "course"=>{"title"=>"Security Course", "coursename"=>"CEH", "description"=>"Certified Ethical Hacker", "courseoutline"=>"Introduction to Ethical Hacking\r\nFootprinting and Reconnaissance\r\nScanning Networks\r\nEnumeration\r\nVulnerability Analysis\r\nSystem Hacking\r\nMalware Threats\r\nSniffing\r\nSocial Engineering\r\nDenial-of-Service\r\nSession Hijacking\r\nEvading IDS, Firewalls, and Honeypots\r\nHacking Web Servers\r\nHacking Web Applications\r\nSQL Injection\r\nHacking Wireless Networks\r\nHacking Mobile Platforms\r\nIoT Hacking\r\nCloud Computing\r\nCryptography\r\nIntroduction to Ethical Hacking\r\nFootprinting and Reconnaissance\r\nScanning Networks\r\nEnumeration\r\nVulnerability Analysis\r\nSystem Hacking\r\nMalware Threats\r\nSniffing\r\nSocial Engineering\r\nDenial-of-Service\r\nSession Hijacking\r\nEvading IDS, Firewalls, and Honeypots\r\nHacking Web Servers\r\nHacking Web Applications\r\nSQL Injection\r\nHacking Wireless Networks\r\nHacking Mobile Platforms\r\nIoT Hacking\r\nCloud Computing\r\nCryptography\r\nIntroduction to Ethical Hacking\r\nFootprinting and Reconnaissance\r\nScanning Networks\r\nEnumeration\r\nVulnerability Analysis\r\nSystem Hacking\r\nMalware Threats\r\nSniffing\r\nSocial Engineering\r\nDenial-of-Service\r\nSession Hijacking\r\nEvading IDS, Firewalls, and Honeypots\r\nHacking Web Servers\r\nHacking Web Applications\r\nSQL Injection\r\nHacking Wireless Networks\r\nHacking Mobile Platforms\r\nIoT Hacking\r\nCloud Computing\r\nCryptography\r\nIntroduction to Ethical Hacking\r\nFootprinting and Reconnaissance\r\nScanning Networks\r\nEnumeration\r\nVulnerability Analysis\r\nSystem Hacking\r\nMalware Threats\r\nSniffing\r\nSocial Engineering\r\nDenial-of-Service\r\nSession Hijacking\r\nEvading IDS, Firewalls, and Honeypots\r\nHacking Web Servers\r\nHacking Web Applications\r\nSQL Injection\r\nHacking Wireless Networks\r\nHacking Mobile Platforms\r\nIoT Hacking\r\nCloud Computing\r\nCryptography\r\nIntroduction to Ethical Hacking\r\nFootprinting and Reconnaissance\r\nScanning Networks\r\nEnumeration\r\nVulnerability Analysis\r\nSystem Hacking\r\nMalware Threats\r\nSniffing\r\nSocial Engineering\r\nDenial-of-Service\r\nSession Hijacking\r\nEvading IDS, Firewalls, and Honeypots\r\nHacking Web Servers\r\nHacking Web Applications\r\nSQL Injection\r\nHacking Wireless Networks\r\nHacking Mobile Platforms\r\nIoT Hacking\r\nCloud Computing\r\nCryptography"}, "return_to"=>"http://192.168.0.2:3000/admin/course", "_save"=>"", "model_name"=>"course"}
+  [1m[36mUser Load (4.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCourse Create (4.1ms)[0m  [1m[32mINSERT INTO `courses` (`title`, `coursename`, `description`, `courseoutline`, `created_at`, `updated_at`) VALUES ('Security Course', 'CEH', 'Certified Ethical Hacker', 'Introduction to Ethical Hacking\r\nFootprinting and Reconnaissance\r\nScanning Networks\r\nEnumeration\r\nVulnerability Analysis\r\nSystem Hacking\r\nMalware Threats\r\nSniffing\r\nSocial Engineering\r\nDenial-of-Service\r\nSession Hijacking\r\nEvading IDS, Firewalls, and Honeypots\r\nHacking Web Servers\r\nHacking Web Applications\r\nSQL Injection\r\nHacking Wireless Networks\r\nHacking Mobile Platforms\r\nIoT Hacking\r\nCloud Computing\r\nCryptography\r\nIntroduction to Ethical Hacking\r\nFootprinting and Reconnaissance\r\nScanning Networks\r\nEnumeration\r\nVulnerability Analysis\r\nSystem Hacking\r\nMalware Threats\r\nSniffing\r\nSocial Engineering\r\nDenial-of-Service\r\nSession Hijacking\r\nEvading IDS, Firewalls, and Honeypots\r\nHacking Web Servers\r\nHacking Web Applications\r\nSQL Injection\r\nHacking Wireless Networks\r\nHacking Mobile Platforms\r\nIoT Hacking\r\nCloud Computing\r\nCryptography\r\nIntroduction to Ethical Hacking\r\nFootprinting and Reconnaissance\r\nScanning Networks\r\nEnumeration\r\nVulnerability Analysis\r\nSystem Hacking\r\nMalware Threats\r\nSniffing\r\nSocial Engineering\r\nDenial-of-Service\r\nSession Hijacking\r\nEvading IDS, Firewalls, and Honeypots\r\nHacking Web Servers\r\nHacking Web Applications\r\nSQL Injection\r\nHacking Wireless Networks\r\nHacking Mobile Platforms\r\nIoT Hacking\r\nCloud Computing\r\nCryptography\r\nIntroduction to Ethical Hacking\r\nFootprinting and Reconnaissance\r\nScanning Networks\r\nEnumeration\r\nVulnerability Analysis\r\nSystem Hacking\r\nMalware Threats\r\nSniffing\r\nSocial Engineering\r\nDenial-of-Service\r\nSession Hijacking\r\nEvading IDS, Firewalls, and Honeypots\r\nHacking Web Servers\r\nHacking Web Applications\r\nSQL Injection\r\nHacking Wireless Networks\r\nHacking Mobile Platforms\r\nIoT Hacking\r\nCloud Computing\r\nCryptography\r\nIntroduction to Ethical Hacking\r\nFootprinting and Reconnaissance\r\nScanning Networks\r\nEnumeration\r\nVulnerability Analysis\r\nSystem Hacking\r\nMalware Threats\r\nSniffing\r\nSocial Engineering\r\nDenial-of-Service\r\nSession Hijacking\r\nEvading IDS, Firewalls, and Honeypots\r\nHacking Web Servers\r\nHacking Web Applications\r\nSQL Injection\r\nHacking Wireless Networks\r\nHacking Mobile Platforms\r\nIoT Hacking\r\nCloud Computing\r\nCryptography', '2021-05-29 18:13:12.603023', '2021-05-29 18:13:12.603023')[0m
+  [1m[36mTRANSACTION (38.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://192.168.0.2:3000/admin/course
+Completed 302 Found in 84ms (ActiveRecord: 51.3ms | Allocations: 6637)
+
+
+Started GET "/admin/course" for 192.168.0.98 at 2021-05-29 23:43:12 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"course"}
+  [1m[36mUser Load (4.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application
+  [1m[36mCourse Load (4.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY courses.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (Duration: 38.8ms | Allocations: 7426)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_head.html.haml (Duration: 83.5ms | Allocations: 26653)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (Duration: 1.7ms | Allocations: 388)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_navigation.html.haml (Duration: 2.9ms | Allocations: 649)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (Duration: 3.1ms | Allocations: 853)
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 5.8ms | Allocations: 1667)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml (Duration: 137.4ms | Allocations: 37811)
+Completed 200 OK in 154ms (Views: 134.3ms | ActiveRecord: 8.6ms | Allocations: 39796)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-29 23:43:21 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.4ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 101.6ms | Allocations: 6335)
+  Rendered layout layouts/application.html.erb (Duration: 102.4ms | Allocations: 6428)
+Completed 500 Internal Server Error in 107ms (ActiveRecord: 5.4ms | Allocations: 6882)
+
+
+  
+ActionView::Template::Error (undefined method `delete_course_path' for #<ActionView::Base:0x0000000000f5c8>):
+    22:       <td>
+    23:         <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+    24:         <%= link_to("Edit") %>
+    25:         <%= link_to("Delete", delete_course_path(course), :method => :'delete') %>
+    26:       </td>
+    27: 
+    28:     </tr>
+  
+app/views/course/index.html.erb:25
+app/views/course/index.html.erb:5
+Started GET "/courses" for 192.168.0.98 at 2021-05-29 23:43:25 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/courses"):
+  
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:43:27 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/welcome_controller.rb:3:in `index'
+Redirected to http://192.168.0.2:3000/students
+Completed 302 Found in 15ms (ActiveRecord: 5.1ms | Allocations: 1225)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-29 23:43:28 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (4.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 7133)
+Completed 200 OK in 44ms (Views: 30.7ms | ActiveRecord: 4.4ms | Allocations: 8980)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-29 23:43:30 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (7.7ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 96.8ms | Allocations: 5897)
+  Rendered layout layouts/application.html.erb (Duration: 98.2ms | Allocations: 6002)
+Completed 500 Internal Server Error in 102ms (ActiveRecord: 7.7ms | Allocations: 6457)
+
+
+  
+ActionView::Template::Error (undefined method `delete_course_path' for #<ActionView::Base:0x0000000000f9d8>):
+    22:       <td>
+    23:         <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+    24:         <%= link_to("Edit") %>
+    25:         <%= link_to("Delete", delete_course_path(course), :method => :'delete') %>
+    26:       </td>
+    27: 
+    28:     </tr>
+  
+app/views/course/index.html.erb:25
+app/views/course/index.html.erb:5
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:43:45 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/welcome_controller.rb:3:in `index'
+Redirected to http://192.168.0.2:3000/students
+Completed 302 Found in 14ms (ActiveRecord: 5.1ms | Allocations: 1208)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-29 23:43:45 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 7118)
+Completed 200 OK in 54ms (Views: 37.3ms | ActiveRecord: 5.1ms | Allocations: 8963)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:43:48 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/welcome_controller.rb:3:in `index'
+Redirected to http://192.168.0.2:3000/students
+Completed 302 Found in 14ms (ActiveRecord: 5.2ms | Allocations: 1215)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-29 23:43:48 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 7113)
+Completed 200 OK in 57ms (Views: 39.7ms | ActiveRecord: 5.2ms | Allocations: 8969)
+
+
+Started DELETE "/users/sign_out" for 192.168.0.98 at 2021-05-29 23:43:52 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Completed 302 Found in 23ms (ActiveRecord: 5.2ms | Allocations: 2092)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:43:52 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.4ms | Allocations: 7120)
+Completed 200 OK in 46ms (Views: 43.2ms | ActiveRecord: 0.0ms | Allocations: 7665)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-29 23:43:53 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 7096)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.0ms | Allocations: 7637)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-29 23:43:54 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 106.6ms | Allocations: 5731)
+  Rendered layout layouts/application.html.erb (Duration: 107.5ms | Allocations: 5824)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 5.5ms | Allocations: 6272)
+
+
+  
+ActionView::Template::Error (undefined method `delete_course_path' for #<ActionView::Base:0x0000000000fd48>):
+    22:       <td>
+    23:         <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+    24:         <%= link_to("Edit") %>
+    25:         <%= link_to("Delete", delete_course_path(course), :method => :'delete') %>
+    26:       </td>
+    27: 
+    28:     </tr>
+  
+app/views/course/index.html.erb:25
+app/views/course/index.html.erb:5
+Started GET "/course" for 192.168.0.98 at 2021-05-29 23:49:02 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 105.7ms | Allocations: 5757)
+  Rendered layout layouts/application.html.erb (Duration: 106.6ms | Allocations: 5850)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 5.5ms | Allocations: 6298)
+
+
+  
+ActionView::Template::Error (undefined method `delete_course_path' for #<ActionView::Base:0x0000000000fed8>):
+    22:       <td>
+    23:         <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+    24:         <%= link_to("Edit") %>
+    25:         <%= link_to("Delete", delete_course_path(course), :method => :'delete') %>
+    26:       </td>
+    27: 
+    28:     </tr>
+  
+app/views/course/index.html.erb:25
+app/views/course/index.html.erb:5
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:12:59 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (2.9ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 54.8ms | Allocations: 10226)
+  Rendered layout layouts/application.html.erb (Duration: 55.3ms | Allocations: 10320)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 7.0ms | Allocations: 11927)
+
+
+  
+ActionView::Template::Error (undefined method `delete_path' for #<ActionView::Base:0x00000000011c10>):
+    22:       <td>
+    23:         <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+    24:         <%= link_to("Edit") %>
+    25:         <%= link_to("Delete", delete_path(course), :method => :'delete') %>
+    26:       </td>
+    27: 
+    28:     </tr>
+  
+app/views/course/index.html.erb:25
+app/views/course/index.html.erb:5
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:13:08 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (6.2ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 15.5ms | Allocations: 1371)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.1ms | Allocations: 8921)
+Completed 200 OK in 62ms (Views: 51.1ms | ActiveRecord: 6.2ms | Allocations: 10407)
+
+
+Started GET "/course/12" for 192.168.0.98 at 2021-05-30 00:13:25 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mCourse Load (4.0ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` WHERE `courses`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/course_controller.rb:20:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering course/show.html.erb within layouts/application
+  Rendered course/show.html.erb within layouts/application (Duration: 35.0ms | Allocations: 261)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 73.9ms | Allocations: 7340)
+Completed 200 OK in 88ms (Views: 75.6ms | ActiveRecord: 4.0ms | Allocations: 8756)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-30 00:13:33 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 7095)
+Completed 200 OK in 39ms (Views: 34.8ms | ActiveRecord: 0.0ms | Allocations: 8395)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-30 00:13:36 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 75)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 7095)
+Completed 200 OK in 40ms (Views: 36.6ms | ActiveRecord: 0.0ms | Allocations: 7637)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:13:39 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.7ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 1102)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 8167)
+Completed 200 OK in 48ms (Views: 39.7ms | ActiveRecord: 5.7ms | Allocations: 8656)
+
+
+Started GET "/course?method=delete" for 192.168.0.98 at 2021-05-30 00:13:41 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Parameters: {"method"=>"delete"}
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (6.0ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 1096)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.1ms | Allocations: 8151)
+Completed 200 OK in 51ms (Views: 42.9ms | ActiveRecord: 6.0ms | Allocations: 8645)
+
+
+Started GET "/course?method=delete" for 192.168.0.98 at 2021-05-30 00:13:43 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Parameters: {"method"=>"delete"}
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.7ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 1095)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 8152)
+Completed 200 OK in 48ms (Views: 40.2ms | ActiveRecord: 5.7ms | Allocations: 8646)
+
+
+Started GET "/course?method=delete" for 192.168.0.98 at 2021-05-30 00:28:20 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Parameters: {"method"=>"delete"}
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  Rendered course/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1644)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1739)
+Completed 500 Internal Server Error in 11ms (Allocations: 3337)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1 style="text-align: center;"> All Courses</h1>
+
+
+<table class="table table-bordered">
+	<% @courses.each do |course| %>
+
+		<thead>
+			<tr>
+				<th scope="col">Title </th>
+				<th scope="col">CourseName</th>
+     			<th scope="col">Description</th>
+      			<th scope="col">CourseOutline</th>
+            <th scope="col">Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+    <tr>
+  		<td><%= course.title %></td>
+      <td><%= course.coursename %></td>
+      <td><%= course.description %></td>
+      <td><%= course.courseoutline %></td>
+      <td>
+        <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+        <%= link_to("Edit") %>
+        <%= link_to("Delete", course_destroy_path :method => :'delete') %>
+      </td>
+
+    </tr>
+
+  </tbody>
+
+
+<% end %>
+</table>
+):
+1:    <h1 style="text-align: center;"> All Courses</h1>
+2:    
+3:    
+4:    <table class="table table-bordered">
+5:    	<% @courses.each do |course| %>
+6:    
+7:    		<thead>
+8:    			<tr>
+9:    				<th scope="col">Title </th>
+10:    				<th scope="col">CourseName</th>
+11:         			<th scope="col">Description</th>
+12:          			<th scope="col">CourseOutline</th>
+13:                <th scope="col">Actions</th>
+14:    			</tr>
+15:    		</thead>
+16:    		<tbody>
+17:        <tr>
+18:      		<td><%= course.title %></td>
+19:          <td><%= course.coursename %></td>
+20:          <td><%= course.description %></td>
+21:          <td><%= course.courseoutline %></td>
+22:          <td>
+23:            <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+24:            <%= link_to("Edit") %>
+25:            <%= link_to("Delete", course_destroy_path :method => :'delete') %>
+26:          </td>
+27:    
+28:        </tr>
+29:    
+30:      </tbody>
+31:    
+32:    
+33:    <% end %>
+34:    </table>
+  
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+Started GET "/" for 192.168.0.98 at 2021-05-30 00:30:16 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 7585)
+Completed 200 OK in 47ms (Views: 42.1ms | Allocations: 8891)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-30 00:39:08 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.2ms | Allocations: 7116)
+Completed 200 OK in 38ms (Views: 35.1ms | Allocations: 7655)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:39:10 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  Rendered course/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1659)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 1753)
+Completed 500 Internal Server Error in 12ms (Allocations: 2205)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1 style="text-align: center;"> All Courses</h1>
+
+
+<table class="table table-bordered">
+	<% @courses.each do |course| %>
+
+		<thead>
+			<tr>
+				<th scope="col">Title </th>
+				<th scope="col">CourseName</th>
+     			<th scope="col">Description</th>
+      			<th scope="col">CourseOutline</th>
+            <th scope="col">Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+    <tr>
+  		<td><%= course.title %></td>
+      <td><%= course.coursename %></td>
+      <td><%= course.description %></td>
+      <td><%= course.courseoutline %></td>
+      <td>
+        <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+        <%= link_to("Edit") %>
+        <%= link_to("Delete", course_destroy_path :method => :'delete') %>
+      </td>
+
+    </tr>
+
+  </tbody>
+
+
+<% end %>
+</table>
+):
+1:    <h1 style="text-align: center;"> All Courses</h1>
+2:    
+3:    
+4:    <table class="table table-bordered">
+5:    	<% @courses.each do |course| %>
+6:    
+7:    		<thead>
+8:    			<tr>
+9:    				<th scope="col">Title </th>
+10:    				<th scope="col">CourseName</th>
+11:         			<th scope="col">Description</th>
+12:          			<th scope="col">CourseOutline</th>
+13:                <th scope="col">Actions</th>
+14:    			</tr>
+15:    		</thead>
+16:    		<tbody>
+17:        <tr>
+18:      		<td><%= course.title %></td>
+19:          <td><%= course.coursename %></td>
+20:          <td><%= course.description %></td>
+21:          <td><%= course.courseoutline %></td>
+22:          <td>
+23:            <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+24:            <%= link_to("Edit") %>
+25:            <%= link_to("Delete", course_destroy_path :method => :'delete') %>
+26:          </td>
+27:    
+28:        </tr>
+29:    
+30:      </tbody>
+31:    
+32:    
+33:    <% end %>
+34:    </table>
+  
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:39:43 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  Rendered course/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1640)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1735)
+Completed 500 Internal Server Error in 10ms (Allocations: 3327)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1 style="text-align: center;"> All Courses</h1>
+
+
+<table class="table table-bordered">
+	<% @courses.each do |course| %>
+
+		<thead>
+			<tr>
+				<th scope="col">Title </th>
+				<th scope="col">CourseName</th>
+     			<th scope="col">Description</th>
+      			<th scope="col">CourseOutline</th>
+            <th scope="col">Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+    <tr>
+  		<td><%= course.title %></td>
+      <td><%= course.coursename %></td>
+      <td><%= course.description %></td>
+      <td><%= course.courseoutline %></td>
+      <td>
+        <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+        <%= link_to("Edit") %>
+        <%= link_to("Delete", delete_course_path :method => :'delete') %>
+      </td>
+
+    </tr>
+
+  </tbody>
+
+
+<% end %>
+</table>
+):
+1:    <h1 style="text-align: center;"> All Courses</h1>
+2:    
+3:    
+4:    <table class="table table-bordered">
+5:    	<% @courses.each do |course| %>
+6:    
+7:    		<thead>
+8:    			<tr>
+9:    				<th scope="col">Title </th>
+10:    				<th scope="col">CourseName</th>
+11:         			<th scope="col">Description</th>
+12:          			<th scope="col">CourseOutline</th>
+13:                <th scope="col">Actions</th>
+14:    			</tr>
+15:    		</thead>
+16:    		<tbody>
+17:        <tr>
+18:      		<td><%= course.title %></td>
+19:          <td><%= course.coursename %></td>
+20:          <td><%= course.description %></td>
+21:          <td><%= course.courseoutline %></td>
+22:          <td>
+23:            <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+24:            <%= link_to("Edit") %>
+25:            <%= link_to("Delete", delete_course_path :method => :'delete') %>
+26:          </td>
+27:    
+28:        </tr>
+29:    
+30:      </tbody>
+31:    
+32:    
+33:    <% end %>
+34:    </table>
+  
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+app/views/course/index.html.erb:25: syntax error, unexpected symbol literal, expecting `do' or '{' or '('
+app/views/course/index.html.erb:25: syntax error, unexpected ')', expecting `end'
+app/views/course/index.html.erb:36: syntax error, unexpected `end', expecting end-of-input
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:40:14 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.7ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 52.7ms | Allocations: 7210)
+  Rendered layout layouts/application.html.erb (Duration: 53.6ms | Allocations: 7303)
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 10.2ms | Allocations: 9401)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"delete", :controller=>"course"}, missing required keys: [:id]
+Did you mean?  delete_course_url):
+    22:       <td>
+    23:         <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+    24:         <%= link_to("Edit") %>
+    25:         <%= link_to("Delete", delete_course_path, :method => :'delete') %>
+    26:       </td>
+    27: 
+    28:     </tr>
+  
+app/views/course/index.html.erb:25
+app/views/course/index.html.erb:5
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:40:50 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.4ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 75.2ms | Allocations: 6155)
+  Rendered layout layouts/application.html.erb (Duration: 76.1ms | Allocations: 6248)
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 5.4ms | Allocations: 7695)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `delete_course' for #<ActionView::Base:0x000000000183d0>
+Did you mean?  delete_course_url):
+    22:       <td>
+    23:         <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+    24:         <%= link_to("Edit") %>
+    25:         <%= link_to("Delete", delete_course, :method => :'delete') %>
+    26:       </td>
+    27: 
+    28:     </tr>
+  
+app/views/course/index.html.erb:25
+app/views/course/index.html.erb:5
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:41:52 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (6.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 82.3ms | Allocations: 5901)
+  Rendered layout layouts/application.html.erb (Duration: 83.3ms | Allocations: 5994)
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 6.5ms | Allocations: 6443)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `delete_course' for #<ActionView::Base:0x000000000185b0>
+Did you mean?  delete_course_url):
+    22:       <td>
+    23:         <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
+    24:         <%= link_to("Edit") %>
+    25:         <%= link_to("Delete", delete_course, :method => :'delete') %>
+    26:       </td>
+    27: 
+    28:     </tr>
+  
+app/views/course/index.html.erb:25
+app/views/course/index.html.erb:5
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:44:03 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.9ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 1328)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 68.1ms | Allocations: 8879)
+Completed 200 OK in 80ms (Views: 69.9ms | ActiveRecord: 5.9ms | Allocations: 10365)
+
+
+Started DELETE "/course/12/delete" for 192.168.0.98 at 2021-05-30 00:44:06 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/course/12/delete"):
+  
+Started DELETE "/course/12/delete" for 192.168.0.98 at 2021-05-30 00:44:57 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/course/12/delete"):
+  
+Started GET "/course/" for 192.168.0.98 at 2021-05-30 00:45:03 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.4ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 1079)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.7ms | Allocations: 8148)
+Completed 200 OK in 54ms (Views: 46.2ms | ActiveRecord: 5.4ms | Allocations: 8634)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:45:06 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.0ms | Allocations: 8138)
+Completed 200 OK in 54ms (Views: 46.3ms | ActiveRecord: 5.5ms | Allocations: 8626)
+
+
+Started DELETE "/course/12/delete" for 192.168.0.98 at 2021-05-30 00:45:09 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/course/12/delete"):
+  
+Started DELETE "/course/12/delete" for 192.168.0.98 at 2021-05-30 00:46:57 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/course/12/delete"):
+  
+Started GET "/course/" for 192.168.0.98 at 2021-05-30 00:46:59 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.7ms | Allocations: 8143)
+Completed 200 OK in 56ms (Views: 45.5ms | ActiveRecord: 5.5ms | Allocations: 8628)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-30 00:47:06 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 7600)
+Completed 200 OK in 45ms (Views: 40.6ms | ActiveRecord: 0.0ms | Allocations: 8900)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:47:09 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 12.8ms | Allocations: 1083)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 8885)
+Completed 200 OK in 64ms (Views: 55.4ms | ActiveRecord: 5.5ms | Allocations: 9374)
+
+
+Started GET "/course/12" for 192.168.0.98 at 2021-05-30 00:47:11 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mCourse Load (5.3ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` WHERE `courses`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/course_controller.rb:20:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering course/show.html.erb within layouts/application
+  Rendered course/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 259)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.2ms | Allocations: 7340)
+Completed 200 OK in 53ms (Views: 36.2ms | ActiveRecord: 5.3ms | Allocations: 8950)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:48:34 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.7ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 1079)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 67.4ms | Allocations: 8372)
+Completed 200 OK in 72ms (Views: 63.7ms | ActiveRecord: 5.7ms | Allocations: 8873)
+
+
+Started GET "/course/12" for 192.168.0.98 at 2021-05-30 00:48:37 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mCourse Load (4.8ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` WHERE `courses`.`id` = 12 LIMIT 1[0m
+  ↳ app/controllers/course_controller.rb:20:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering course/show.html.erb within layouts/application
+  Rendered course/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 124)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 7189)
+Completed 200 OK in 50ms (Views: 38.4ms | ActiveRecord: 4.8ms | Allocations: 8356)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-30 00:53:39 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 150)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 7657)
+Completed 200 OK in 50ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 9194)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:53:42 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 1327)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 51.5ms | Allocations: 8401)
+Completed 200 OK in 61ms (Views: 52.2ms | ActiveRecord: 5.5ms | Allocations: 9645)
+
+
+Started DELETE "/course/12/delete" for 192.168.0.98 at 2021-05-30 00:53:44 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/course/12/delete"):
+  
+Started GET "/" for 192.168.0.98 at 2021-05-30 00:54:26 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 86)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 7135)
+Completed 200 OK in 36ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 7674)
+
+
+Started GET "/users/sign_in" for 192.168.0.98 at 2021-05-30 00:54:27 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 3.6ms | Allocations: 606)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 13.9ms | Allocations: 2287)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 9309)
+Completed 200 OK in 80ms (Views: 50.0ms | ActiveRecord: 0.0ms | Allocations: 15342)
+
+
+Started POST "/users/sign_in" for 192.168.0.98 at 2021-05-30 00:54:35 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"ankitsharma.1191@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (5.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitsharma.1191@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://192.168.0.2:3000/
+Completed 302 Found in 452ms (ActiveRecord: 5.3ms | Allocations: 4443)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-30 00:54:36 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (5.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/welcome_controller.rb:3:in `index'
+Redirected to http://192.168.0.2:3000/students
+Completed 302 Found in 12ms (ActiveRecord: 5.1ms | Allocations: 1218)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-30 00:54:36 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 7207)
+Completed 200 OK in 35ms (Views: 24.6ms | ActiveRecord: 2.9ms | Allocations: 9869)
+
+
+Started GET "/admin" for 192.168.0.98 at 2021-05-30 00:54:40 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `courses`[0m
+  [1m[36mCourse Load (4.4ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY `courses`.`id` DESC LIMIT 1[0m
+  [1m[35m (4.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  [1m[36mUser Load (4.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY `users`.`id` DESC LIMIT 1[0m
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (Duration: 56.5ms | Allocations: 12647)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_head.html.haml (Duration: 86.2ms | Allocations: 31183)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (Duration: 7.8ms | Allocations: 3962)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_navigation.html.haml (Duration: 18.0ms | Allocations: 9621)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (Duration: 6.9ms | Allocations: 3067)
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 10.2ms | Allocations: 5203)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml (Duration: 200.0ms | Allocations: 69002)
+Completed 200 OK in 268ms (Views: 205.6ms | ActiveRecord: 23.0ms | Allocations: 76872)
+
+
+Started GET "/admin" for 192.168.0.98 at 2021-05-30 00:54:41 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `courses`[0m
+  [1m[36mCourse Load (2.6ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY `courses`.`id` DESC LIMIT 1[0m
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY `users`.`id` DESC LIMIT 1[0m
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (Duration: 14.5ms | Allocations: 2409)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_head.html.haml (Duration: 100.6ms | Allocations: 26607)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (Duration: 2.4ms | Allocations: 352)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_navigation.html.haml (Duration: 3.8ms | Allocations: 603)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (Duration: 3.3ms | Allocations: 844)
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 2.6ms | Allocations: 584)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml (Duration: 128.7ms | Allocations: 31601)
+Completed 200 OK in 168ms (Views: 130.2ms | ActiveRecord: 14.7ms | Allocations: 38694)
+
+
+Started GET "/admin/course?_pjax=%5Bdata-pjax-container%5D" for 192.168.0.98 at 2021-05-30 00:54:43 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"course"}
+  [1m[36mUser Load (5.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mCourse Load (3.7ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY courses.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (Duration: 146.4ms | Allocations: 43897)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 153.0ms | Allocations: 45609)
+Completed 200 OK in 179ms (Views: 152.9ms | ActiveRecord: 9.2ms | Allocations: 47829)
+
+
+Started GET "/admin/course/12/delete?_pjax=%5Bdata-pjax-container%5D" for 192.168.0.98 at 2021-05-30 00:54:47 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#delete as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"course", "id"=>"12"}
+  [1m[36mUser Load (10.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  [1m[36mCourse Load (6.8ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` WHERE `courses`.`id` = 12 ORDER BY `courses`.`id` ASC LIMIT 1[0m
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/delete.html.haml within layouts/rails_admin/pjax
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/_delete_notice.html.haml (Duration: 21.5ms | Allocations: 3677)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/delete.html.haml within layouts/rails_admin/pjax (Duration: 86.2ms | Allocations: 11449)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 103.4ms | Allocations: 14608)
+Completed 200 OK in 148ms (Views: 107.0ms | ActiveRecord: 16.9ms | Allocations: 18236)
+
+
+Started DELETE "/admin/course/12/delete" for 192.168.0.98 at 2021-05-30 00:54:49 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#delete as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "return_to"=>"http://192.168.0.2:3000/admin/course", "model_name"=>"course", "id"=>"12"}
+  [1m[36mUser Load (3.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  [1m[36mCourse Load (3.7ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` WHERE `courses`.`id` = 12 ORDER BY `courses`.`id` ASC LIMIT 1[0m
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCourse Destroy (91.4ms)[0m  [1m[31mDELETE FROM `courses` WHERE `courses`.`id` = 12[0m
+  [1m[36mTRANSACTION (74.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://192.168.0.2:3000/admin/course
+Completed 302 Found in 213ms (ActiveRecord: 177.1ms | Allocations: 6909)
+
+
+Started GET "/admin/course" for 192.168.0.98 at 2021-05-30 00:54:49 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"course"}
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application
+  [1m[36mCourse Load (4.3ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY courses.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (Duration: 35.0ms | Allocations: 5171)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_head.html.haml (Duration: 98.9ms | Allocations: 27238)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (Duration: 1.7ms | Allocations: 374)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_navigation.html.haml (Duration: 3.0ms | Allocations: 625)
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (Duration: 3.2ms | Allocations: 844)
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 6.0ms | Allocations: 1657)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/application.html.haml (Duration: 150.2ms | Allocations: 36088)
+Completed 200 OK in 168ms (Views: 147.3ms | ActiveRecord: 8.2ms | Allocations: 38057)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 192.168.0.98 at 2021-05-30 00:54:53 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (Duration: 59.0ms | Allocations: 11651)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 67.2ms | Allocations: 13352)
+Completed 200 OK in 91ms (Views: 63.9ms | ActiveRecord: 10.3ms | Allocations: 16052)
+
+
+Started GET "/admin/course?_pjax=%5Bdata-pjax-container%5D" for 192.168.0.98 at 2021-05-30 00:54:55 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"course"}
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax
+  [1m[36mCourse Load (10.7ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY courses.id desc LIMIT 20 OFFSET 0[0m
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (Duration: 49.3ms | Allocations: 5349)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 59.7ms | Allocations: 7050)
+Completed 200 OK in 82ms (Views: 50.9ms | ActiveRecord: 16.8ms | Allocations: 9071)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:55:06 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 852)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 8871)
+Completed 200 OK in 58ms (Views: 43.8ms | ActiveRecord: 11.5ms | Allocations: 9364)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:55:08 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 877)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (4.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 57.4ms | Allocations: 8903)
+Completed 200 OK in 62ms (Views: 48.6ms | ActiveRecord: 10.5ms | Allocations: 9395)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:56:19 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.6ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (8.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 61.2ms | Allocations: 9625)
+Completed 200 OK in 73ms (Views: 54.3ms | ActiveRecord: 13.9ms | Allocations: 11113)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:57:34 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (4.7ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 1125)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 3008)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 4.7ms | Allocations: 4460)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>Site</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<%= link_to 'Myinfotech', root_path, class: "navbar-brand" %>
+
+<ul class="navbar-nav mr-auto navbar-right">
+  <li class="nav-item " id="main-nav">
+    <%= link_to 'Home', root_path, class: 'nav-link' %>
+  </li>
+  <li class="nav-item" id="main-nav">
+    <%= link_to 'Services', services_index_path, class: 'nav-link' %>
+  </li> 
+  <li class="nav-item" id="main-nav">
+    <%= link_to 'Courses', course_index_path, class: 'nav-link' %>
+  </li>
+</ul>
+</nav>
+
+    <% if current_user %>
+  
+      <%= link_to 'Dashboard', students_path, class: 'nav-item' id="main-nav" %>
+  
+      <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: 'nav-link' %>
+    
+    <% else %>
+     
+         <%= link_to 'Login', new_user_session_path, class: 'nav-link' %>
+      
+     <% end %>
+
+
+    <%= yield %>
+
+
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>Site</title>
+5:        <meta name="viewport" content="width=device-width,initial-scale=1">
+6:        <%= csrf_meta_tags %>
+7:        <%= csp_meta_tag %>
+8:    
+9:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+11:      </head>
+12:    
+13:      <body>
+14:        <% if notice %>
+15:      <p class="alert alert-success"><%= notice %></p>
+16:    <% end %>
+17:    <% if alert %>
+18:      <p class="alert alert-danger"><%= alert %></p>
+19:    <% end %>
+20:    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+21:    <%= link_to 'Myinfotech', root_path, class: "navbar-brand" %>
+22:    
+23:    <ul class="navbar-nav mr-auto navbar-right">
+24:      <li class="nav-item " id="main-nav">
+25:        <%= link_to 'Home', root_path, class: 'nav-link' %>
+26:      </li>
+27:      <li class="nav-item" id="main-nav">
+28:        <%= link_to 'Services', services_index_path, class: 'nav-link' %>
+29:      </li> 
+30:      <li class="nav-item" id="main-nav">
+31:        <%= link_to 'Courses', course_index_path, class: 'nav-link' %>
+32:      </li>
+33:    </ul>
+34:    </nav>
+35:    
+36:        <% if current_user %>
+37:      
+38:          <%= link_to 'Dashboard', students_path, class: 'nav-item' id="main-nav" %>
+39:      
+40:          <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: 'nav-link' %>
+41:        
+42:        <% else %>
+43:         
+44:             <%= link_to 'Login', new_user_session_path, class: 'nav-link' %>
+45:          
+46:         <% end %>
+47:    
+48:    
+49:        <%= yield %>
+50:    
+51:    
+52:      </body>
+53:    </html>
+  
+app/views/layouts/application.html.erb:38: syntax error, unexpected local variable or method, expecting ')'
+app/views/layouts/application.html.erb:38: syntax error, unexpected local variable or method, expecting ')'
+app/views/layouts/application.html.erb:38: syntax error, unexpected local variable or method, expecting ')'
+app/views/layouts/application.html.erb:38: syntax error, unexpected local variable or method, expecting ')'
+app/views/layouts/application.html.erb:38: syntax error, unexpected local variable or method, expecting ')'
+app/views/layouts/application.html.erb:38: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:58:53 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.0ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 1121)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (4.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 70.6ms | Allocations: 9624)
+Completed 200 OK in 82ms (Views: 68.7ms | ActiveRecord: 9.1ms | Allocations: 11112)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 00:59:47 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.8ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 12.8ms | Allocations: 1125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 64.9ms | Allocations: 9623)
+Completed 200 OK in 77ms (Views: 60.7ms | ActiveRecord: 10.3ms | Allocations: 11134)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 01:00:29 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (3.2ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 35.4ms | Allocations: 9607)
+Completed 200 OK in 42ms (Views: 33.5ms | ActiveRecord: 6.1ms | Allocations: 11087)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 01:01:26 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (10.5ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 17.5ms | Allocations: 879)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 391.2ms | Allocations: 14501)
+Completed 200 OK in 397ms (Views: 379.0ms | ActiveRecord: 15.7ms | Allocations: 14991)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 01:01:27 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.8ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 877)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (9.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 78.8ms | Allocations: 8898)
+Completed 200 OK in 83ms (Views: 65.9ms | ActiveRecord: 14.8ms | Allocations: 9390)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 01:01:28 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.3ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 877)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (4.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 56.4ms | Allocations: 8899)
+Completed 200 OK in 61ms (Views: 48.1ms | ActiveRecord: 10.1ms | Allocations: 9391)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-30 01:01:31 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (7.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 157)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.7ms | Allocations: 7218)
+Completed 200 OK in 64ms (Views: 39.0ms | ActiveRecord: 7.6ms | Allocations: 9838)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-30 01:02:07 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 500.6ms | Allocations: 17038)
+Completed 500 Internal Server Error in 517ms (ActiveRecord: 4.2ms | Allocations: 18863)
+
+
+  
+ActionView::Template::Error (Error: property "margin-top" must be followed by a ':'
+        on line 28:5 of app/assets/stylesheets/application.scss
+>>     margin-top 20px;
+
+   ----^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/application.scss:28
+app/views/layouts/application.html.erb:9
+Started GET "/students" for 192.168.0.98 at 2021-05-30 01:03:04 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (5.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 84)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6531.3ms | Allocations: 71450)
+Completed 200 OK in 6551ms (Views: 6533.0ms | ActiveRecord: 5.2ms | Allocations: 73311)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-30 01:03:23 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (4.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 84)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3661.5ms | Allocations: 71030)
+Completed 200 OK in 3687ms (Views: 3665.3ms | ActiveRecord: 4.4ms | Allocations: 72891)
+
+
+Started GET "/admin/?_pjax=%5Bdata-pjax-container%5D" for 192.168.0.98 at 2021-05-30 01:03:52 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by RailsAdmin::MainController#dashboard as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]"}
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ config/initializers/rails_admin.rb:4:in `block (2 levels) in <main>'
+  [1m[35m (5.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `courses`[0m
+  [1m[36mCourse Load (4.8ms)[0m  [1m[34mSELECT `courses`.* FROM `courses` ORDER BY `courses`.`id` DESC LIMIT 1[0m
+  [1m[35m (6.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  [1m[36mUser Load (4.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` ORDER BY `users`.`id` DESC LIMIT 1[0m
+  Rendering layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml
+  Rendering /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/pjax
+  Rendered /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/pjax (Duration: 51.3ms | Allocations: 12401)
+  Rendered layout /root/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/rails_admin-2.1.1/app/views/layouts/rails_admin/pjax.html.haml (Duration: 72.2ms | Allocations: 17567)
+Completed 200 OK in 150ms (Views: 81.7ms | ActiveRecord: 26.7ms | Allocations: 25335)
+
+
+Started GET "/" for 192.168.0.98 at 2021-05-30 01:03:55 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (5.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/controllers/welcome_controller.rb:3:in `index'
+Redirected to http://192.168.0.2:3000/students
+Completed 302 Found in 17ms (ActiveRecord: 5.9ms | Allocations: 1208)
+
+
+Started GET "/students" for 192.168.0.98 at 2021-05-30 01:03:57 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StudentsController#index as HTML
+  [1m[36mUser Load (5.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering layout layouts/application.html.erb
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 74)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.4ms | Allocations: 7117)
+Completed 200 OK in 80ms (Views: 57.2ms | ActiveRecord: 5.7ms | Allocations: 8963)
+
+
+Started GET "/services/index" for 192.168.0.98 at 2021-05-30 01:03:59 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ServicesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering services/index.html.erb within layouts/application
+  Rendered services/index.html.erb within layouts/application (Duration: 18.7ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (6.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 83.7ms | Allocations: 8080)
+Completed 200 OK in 95ms (Views: 84.8ms | ActiveRecord: 6.1ms | Allocations: 9318)
+
+
+Started GET "/course" for 192.168.0.98 at 2021-05-30 01:04:01 +0530
+Cannot render console from 192.168.0.98! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by CourseController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering course/index.html.erb within layouts/application
+  [1m[36mCourse Load (5.1ms)[0m  [1m[34mSELECT `courses`.* FROM `courses`[0m
+  ↳ app/views/course/index.html.erb:5
+  Rendered course/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 853)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (4.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/layouts/application.html.erb:36
+  Rendered layout layouts/application.html.erb (Duration: 74.2ms | Allocations: 9590)
+Completed 200 OK in 80ms (Views: 67.8ms | ActiveRecord: 9.5ms | Allocations: 10083)
+
+
