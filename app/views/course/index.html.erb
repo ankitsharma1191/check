@@ -1,34 +1,14 @@
-<h1 style="text-align: center;"> All Courses</h1>
 
+<br>
+  <% @courses.each do |course| %>
+  <div class="container">
 
-<table class="table table-bordered">
-	<% @courses.each do |course| %>
+    <div class="row text-center text-lg-left">
+    <div class= "col-lg-3 col-md-4 col-6">
+        <%= image_tag course.image, style: "width: 300px;"%> 
+        <p><b> <%= link_to(course.coursename, course_path(course) ) %> </b></p>
+    </div>
+  </div>
 
-		<thead>
-			<tr>
-				<th scope="col">Title </th>
-				<th scope="col">CourseName</th>
-     			<th scope="col">Description</th>
-      			<th scope="col">CourseOutline</th>
-            <th scope="col">Actions</th>
-			</tr>
-		</thead>
-		<tbody>
-    <tr>
-  		<td><%= course.title %></td>
-      <td><%= course.coursename %></td>
-      <td><%= course.description %></td>
-      <td><%= course.courseoutline %></td>
-      <td>
-        <%= link_to("Show", {:action => 'show', :id => course.id} ) %>
-        <%= link_to("Edit") %>
-        <%= link_to("Delete", delete_course_path(course), :method => :'delete') %>
-      </td>
-
-    </tr>
-
-  </tbody>
-
-
-<% end %>
-</table>
+  </div>
+ <% end %> 

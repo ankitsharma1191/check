@@ -1,1 +1,25 @@
-<%= link_to("All Courses", course_index_path, :class => 'back-link') %>
+<h2 id="h1_show"><%= @course.coursename %></h2>
+<br>
+<div  id="img-show">
+	<%= image_tag @course.image, style: "width: 800px" %>
+</div>
+<div  class="show_table" id="show_table">
+	<table>
+	<th>Course Outline</th>
+	<tr>
+		<td> <%= @course.courseoutline %></td>
+	</tr>
+	<tr> <td> <%= @course.courseoutline1 %></td> <br></tr>
+	<tr> <td> <%= @course.courseoutline2 %></td> <br></tr>
+	<tr> <td> <%= @course.courseoutline3 %></td> <br></tr>
+	<tr> <td> <%= @course.courseoutline4 %></td> <br></tr>
+	<tr> <td> <%= @course.courseoutline6 %></td> <br></tr>
+	<tr> <td> <%= @course.courseoutline7 %></td> <br></tr>
+	<tr> <td> <%= @course.courseoutline8 %></td> <br></tr>
+	<tr> <td> <%= @course.courseoutline9 %></td> <br></tr>
+	<tr> <td> <%= @course.courseoutline10 %></td> <br></tr>
+	<tr> <td> <%= @course.courseoutline11 %></td> <br></tr>
+	<tr> <td> <%= @course.courseoutline12 %></td> <br></tr>
+
+</table>
+</div>

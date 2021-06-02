@@ -8,16 +8,20 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
 
-  <body>
-    <% if notice %>
-  <p class="alert alert-success"><%= notice %></p>
-<% end %>
-<% if alert %>
-  <p class="alert alert-danger"><%= alert %></p>
-<% end %>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <% if current_user %>
+  
+     <li  id="nav-manual">  <%= link_to 'Dashboard', students_path %> </li>
+  
+     <li id="nav-manual">  <%= link_to 'Logout', destroy_user_session_path, method: :delete %> </li>
+    
+    <% else %>
+     
+     <li id="nav-manual"> <%= link_to 'Login', new_user_session_path %></li>
+      
+     <% end %>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 <%= link_to 'Myinfotech', root_path, class: "navbar-brand" %>
 
 <ul class="navbar-nav mr-auto navbar-right">
@@ -25,27 +29,24 @@
     <%= link_to 'Home', root_path, class: 'nav-link' %>
   </li>
   <li class="nav-item" id="main-nav">
-    <%= link_to 'Services', services_index_path, class: 'nav-link' %>
+    <%= link_to 'Services', services_path, class: 'nav-link' %>
   </li> 
   <li class="nav-item" id="main-nav">
     <%= link_to 'Courses', course_index_path, class: 'nav-link' %>
   </li>
 </ul>
+
 </nav>
 
-    <% if current_user %>
-  
-     <li class="nav-item" id="main-nav">  <%= link_to 'Dashboard', students_path %> </li>
-  
-     <li class="nav-item" id="main-nav">  <%= link_to 'Logout', destroy_user_session_path, method: :delete %> </li>
-    
-    <% else %>
-     
-         <%= link_to 'Login', new_user_session_path, class: 'nav-link' %>
-      
-     <% end %>
+  </head>
 
-
+  <body>
+<% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
     <%= yield %>
 
 

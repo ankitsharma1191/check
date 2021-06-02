@@ -23,8 +23,27 @@
     font-weight: bold;
     color: red;
     float: right;
-    padding: 10px;
     font-size: 15px;
     margin-top: 0px;
+    padding: 4px;
+
   }
- 
+#nav-manual {
+ margin-top: 8px;
+  float: right;
+  margin-right: 10px;
+  color: red;  
+  list-style-type: none;
+  padding: 5px;
+}
+.container {
+  float: center;
+}
+#img-show {
+  margin-left: 20px;
+  border-width: 2px;
+}
+#h1_show {
+  text-align: center;
+  color: green;
+}

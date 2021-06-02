@@ -10,7 +10,7 @@ class CourseController < ApplicationController
   def create
   	@course = Course.new(my_params)
   	if @course.save
-  		redirect_to course_index_path
+  		redirect_to course_path
   	else
   		render :new
   	end
@@ -31,7 +31,7 @@ class CourseController < ApplicationController
   def destroy
   		@course = Course.find(params[:id])
   		@course.destroy
-  		redirect_to(course_index_path)
+  		redirect_to(course_path)
   end
 
   private
