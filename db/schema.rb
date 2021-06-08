@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_31_193035) do
+ActiveRecord::Schema.define(version: 2021_06_02_190225) do
 
   create_table "active_storage_attachments", charset: "utf8mb4", force: :cascade do |t|
     t.string "name", null: false
@@ -60,6 +60,7 @@ ActiveRecord::Schema.define(version: 2021_05_31_193035) do
     t.text "courseoutline11"
     t.text "courseoutline12"
     t.text "courseoutline13"
+    t.integer "hours"
   end
 
   create_table "users", charset: "utf8mb4", force: :cascade do |t|

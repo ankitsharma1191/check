@@ -1,14 +1,29 @@
 
-<br>
-  <% @courses.each do |course| %>
-  <div class="container">
 
-    <div class="row text-center text-lg-left">
-    <div class= "col-lg-3 col-md-4 col-6">
-        <%= image_tag course.image, style: "width: 300px;"%> 
-        <p><b> <%= link_to(course.coursename, course_path(course) ) %> </b></p>
-    </div>
-  </div>
 
-  </div>
- <% end %> 
+  <br>
+    <% @courses.each do |course| %>
+    <section>
+        <div class="container">
+
+              <div class="row">
+                    <div class="col-md-3">
+                           <%= image_tag course.image, style: "width: 300px;"%> 
+                           <%= link_to(course.coursename, course_path(course)) %>
+                        
+                    </div> 
+                    <br>
+                    <div class="col-md-3">
+                         
+                            <%= course.description %>
+                    </div>
+                    <div class="col-md-3">
+                      <h4>Duration</h4>
+                          <h5> <%= course.hours %> Hours</h5>
+                    </div>
+                   
+              </div>
+        </div>
+    </section>
+
+   <% end %> 
