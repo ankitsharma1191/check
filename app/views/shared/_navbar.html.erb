@@ -1,0 +1,49 @@
+
+<header>
+
+    <% if current_user %>
+  
+     <li  id="nav-manual">  <%= link_to 'Dashboard', students_path %> </li>
+  
+     <li id="nav-manual">  <%= link_to 'Logout', destroy_user_session_path, method: :delete %> </li>
+    
+    <% else %>
+     
+     <li id="nav-manual"> <%= link_to 'Login', new_user_session_path %></li>
+      
+     <% end %>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <%= link_to 'Myinfotech', root_path, class: "navbar-brand" %>
+
+  <ul class="navbar-nav mr-auto navbar-right">
+      <li class="nav-item " id="main-nav">
+        <%= link_to 'Home', root_path, class: 'nav-link' %>
+      </li>
+      <li class="nav-item" id="main-nav">
+        <%= link_to 'Services', services_path, class: 'nav-link' %>
+      </li> 
+      <li class="nav-item" id="main-nav">
+        <%= link_to 'Courses', course_index_path, class: 'nav-link' %>
+      </li>
+      
+  </ul>
+
+</nav>
+<header class="header_wrap dark_skin">
+
+    <div class="news_ticker bg-warning">
+    <div class="container">
+    <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+        <a href="#" target="_blank">c</a> ||
+        <a href="#" target="_blank">Special Discount for 2020 Bachelor & Master Student  </a> || 
+        <a href="#" target="_blank">Elabs Available For Practice</a> || 
+        <a href="#" target="_blank">AWS Training, Services</a> || 
+        <a href="#" target="_blank">Special Batch for Corporates</a> ||
+        <a href="#" target="_blank">Red Hat Trainings, Technical Support </a> || 
+        <a href="#" target="_blank">Security Services, Penetration Testing</a>
+    </marquee>
+    </div>
+</div>
+</header>
+</header>
