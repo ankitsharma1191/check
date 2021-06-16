@@ -1,0 +1,292 @@
+<meta charset="utf-8" /> 
+<%= render 'shared/navbar' %>
+
+<br>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="single_event">
+                    <div class="event_img">
+                       
+                       <%= image_tag @event.image, class: "img-thumbnail" %>
+                      
+                        <div class="enroll_btn">
+                            <%= link_to 'Get Enroll', new_user_registration_path, class: "btn btn-default btn-sm" %>
+                        </div>
+                    </div>
+                    <div class="event_detail alert-warning">
+                        <div class="event_title">
+                            <h2><%= @event.name %> </h2>
+                        </div>
+                        <div class="countent_detail_meta">
+                            <ul>
+                                <li>
+                                    
+                                </li>
+                                <li>
+                                    <div class="event_cat">
+                                        <label>Categories: </label>
+                                        <a href="#">Security Trainings</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="event_student">
+                                        <label>Students: </label>
+                                        <span>370</span>
+                                    </div>
+                                </li>
+                                <li>
+                                  <div class="event_categories">
+                                        <label>Review: </label>
+                                        <div class="rating_stars">
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star-half"></i> 
+                                        </div>
+                                    </div>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="event_tabs">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="overview-tab1" data-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="true">Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="curriculum-tab1" data-toggle="tab" href="#curriculum" role="tab" aria-controls="curriculum" aria-selected="false">curriculum</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="instructor-tab1" data-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false">instructor</a>
+                            </li>
+                           
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab1">
+                               <div class="border radius_all_5 tab_box"> <p> <%= @event.description %> </p></div>
+                            </div>
+                            <div class="tab-pane fade" id="curriculum" role="tabpanel" aria-labelledby="curriculum-tab1">
+                                <div id="accordion" class="accordion">
+                                	<p><%= @event.content1 %> </p>    
+                               	         
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab1">
+                                <div class="event_author">
+                                    <div class="author_img">
+                                        <img class="radius_all_5" src="assets/images/client_img1.jpg" alt="client_img1"/>
+                                    </div>
+                                    <div class="author_meta">
+                                        <div class="author_intro">
+                                            <h6>Kenneth </h6>
+                                            <span class="text_default"></span>
+                                        </div>
+                                        <div class="author_desc">
+                                            <p><!-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. --></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="medium_divider"></div>
+                            <div class="comment-title"><h5>Related events</h5></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                                            <div class="col-md-6">
+                            <div class="content_box radius_all_10 box_shadow1">
+                                <div class="content_img radius_ltrt_10">
+                                    <a href='event_detail.php?event_id=38&cat=1' > <img style="height:180px;"src='event_images/CHFI.png' alt="Certified Computer Hacking Forensic Investigator."></a>
+                                </div>
+                                <div class="content_desc">
+                                    <h4 class="content_title"><a href="event_detail.php?event_id=38&cat=1"><p style="height:42px; overflow:hidden;">Certified Computer Hacking Forensic Investigator.</p></a></h4>
+                                    <p style="max-height:98px; overflow:hidden;">Every crime leaves a trail of evidence. This event will teach you to detect hacking and penetration testing attacks, extracting evidence and to prevent future attacks. This comprehensive event covers major forensic investigation and is divided into identification and acquisition, preservation & analysis and reporting of digital evidence against perpetrators. Most of the sessions will be through practice on our e-labs to immerse students in a hands on experience with the right tools and techniques to be successful in an investigation.
+This event is designed for anyone interested in the network infrastructure.
+</p>
+                                    <div class="events_info">
+                                        <div class="rating_stars">
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star-half"></i> 
+                                        </div>
+                                        <ul class="list_none content_meta">
+                                            <li><a href="#"><i class="ti-user"></i>31</a></li>
+                                            <li><a href="#"><i class="ti-heart"></i>10</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>                        <div class="col-md-6">
+                            <div class="content_box radius_all_10 box_shadow1">
+                                <div class="content_img radius_ltrt_10">
+                                    <a href='event_detail.php?event_id=42&cat=1' > <img style="height:180px;"src='event_images/ECSA.png' alt="EC- Council Certified Security Analyst."></a>
+                                </div>
+                                <div class="content_desc">
+                                    <h4 class="content_title"><a href="event_detail.php?event_id=42&cat=1"><p style="height:42px; overflow:hidden;">EC- Council Certified Security Analyst.</p></a></h4>
+                                    <p style="max-height:98px; overflow:hidden;">This event does not require any prior knowledge or prerequisites. This event is designed for anyone with an interest in security analysis. With the rise in cyber attacks, security analysts are in demand to restore breached security systems, put in controls and measures to prevent future attacks. 
+This event has sections in the theory of security and analysis, pillars of security and from then it will be hands on in understanding security analysis. 
+Most sessions will involve practice in our e-labs to help you gain skills under the instructions of a professional instructor. 
+By the end of this event, you will have earned your certification and be very competitive in the job market.
+</p>
+                                    <div class="events_info">
+                                        <div class="rating_stars">
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star-half"></i> 
+                                        </div>
+                                        <ul class="list_none content_meta">
+                                            <li><a href="#"><i class="ti-user"></i>31</a></li>
+                                            <li><a href="#"><i class="ti-heart"></i>10</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>                   </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mt-lg-0 mt-4 pt-3 pt-lg-0">
+                <div class="sidebar">
+                                  <!--------- end search-----------------> 
+                    <div class="widget widget_recent_event">
+                        <h5 class="widget_title">Latest event</h5>
+                        <ul class="recent_post border_bottom_dash list_none">
+                                                        <li>
+                                <div class="post_footer">
+                                    <div class="post_img">
+                                       <img src="event_images/eth.jpg" alt="letest_event1">
+                                    </div>
+                                    <div class="post_content">
+                                    <h6><a href='event_detail.php?event_id=227&cat=14' >Learn Ethical Hacking</a></h6>
+                                    <span class="text-success small">Free</span>
+                                    </div>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="post_footer">
+                                    <div class="post_img">
+                                       <img src="event_images/20.jpg" alt="letest_event1">
+                                    </div>
+                                    <div class="post_content">
+                                    <h6><a href='event_detail.php?event_id=226&cat=14' >SQL Database for Beginners</a></h6>
+                                    <span class="text-success small">Free</span>
+                                    </div>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="post_footer">
+                                    <div class="post_img">
+                                       <img src="event_images/18.jpg" alt="letest_event1">
+                                    </div>
+                                    <div class="post_content">
+                                    <h6><a href='event_detail.php?event_id=225&cat=14' >Linux System Admin For Beginners</a></h6>
+                                    <span class="text-success small">Free</span>
+                                    </div>
+                                </div>
+                            </li>
+                                                    </ul>
+                    </div>
+                    <div class="widget widget_categories">
+                        <h5 class="widget_title">event Categories</h5>
+                        <ul class="recent_post border_bottom_dash list_none">
+                                                        <li>
+                                <div class="post_footer row">
+                                <div class="b"><a href='categories.php?categorie_id=3' >Microsoft Trainings</a></div>
+                                                                <span class="categories_num" style="margin-right:2%;">(5)</span>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="post_footer row">
+                                <div class="b"><a href='categories.php?categorie_id=12' >Diploma</a></div>
+                                                                <span class="categories_num" style="margin-right:2%;">(1)</span>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="post_footer row">
+                                <div class="b"><a href='categories.php?categorie_id=6' >Comptia Trainings </a></div>
+                                                                <span class="categories_num" style="margin-right:2%;">(10)</span>
+                                </div>
+                            </li>
+                                                        <li>
+                                <div class="post_footer row">
+                                <div class="b"><a href='categories.php?categorie_id=13' >CISCO</a></div>
+                                                                <span class="categories_num" style="margin-right:2%;">(2)</span>
+                                </div>
+                            </li>
+                                                    </ul>
+                </div>
+                    <div class="widget widget_recent_post">
+                        <h5 class="widget_title">Recent Post </h5>
+                        <ul class="recent_post border_bottom_dash list_none">
+                            													
+							<li>
+                                <div class="post_footer">
+                                    <div class="post_img">
+                                        <a href="blog_detail.php?blog_id=9"><img src="blog_images/blog 2.png" alt="letest_post1"></a>
+                                    </div>
+                                    <div class="post_content" style="max-height:50px; overflow:hidden;"> 
+                                        <h6><a href="blog_detail.php?blog_id=9">#Cryptography is used to #hide our personal data like some important passwords,
+contact numbers or someone secret msgs and much more which were in text form to protect them from hackers and unwanted users. It hides the documents of text form behind the pics. This only works on the image and text.
+</a></h6>
+                                    </div>
+                                        <span class="post_date">2019-11-05</span>
+                                </div>
+                            </li>
+						 							
+							<li>
+                                <div class="post_footer">
+                                    <div class="post_img">
+                                        <a href="blog_detail.php?blog_id=8"><img src="blog_images/ss 12.png" alt="letest_post1"></a>
+                                    </div>
+                                    <div class="post_content" style="max-height:50px; overflow:hidden;"> 
+                                        <h6><a href="blog_detail.php?blog_id=8">#DOS_Attack is used to #Crypt or Destroy victimemp_images device hardware which obtains #IP and  #MAC_Addreses and it only works when u have the #IP and #MAC_Address of that victim"s device but remember one thing the device shoud be connected to internet otherwise this attack don"t work properly and it can also harm your device. If you don"t have the IP or MAC Address you can easily get it only that time when the victim"s device is in your network by scanning his IP by using any #IP_Scanner.</a></h6>
+                                    </div>
+                                        <span class="post_date">2019-11-05</span>
+                                </div>
+                            </li>
+						 							
+							<li>
+                                <div class="post_footer">
+                                    <div class="post_img">
+                                        <a href="blog_detail.php?blog_id=7"><img src="blog_images/Packet_sniffing.png" alt="letest_post1"></a>
+                                    </div>
+                                    <div class="post_content" style="max-height:50px; overflow:hidden;"> 
+                                        <h6><a href="blog_detail.php?blog_id=7">#Packet_sniffing is a technique of #monitoring every packet that crosses the #network.</a></h6>
+                                    </div>
+                                        <span class="post_date">2019-11-02</span>
+                                </div>
+                            </li>
+						                         </ul>
+                    </div>
+                    <div class="widget widget_tags">
+                        <h5 class="widget_title">tags</h5>
+                        <div class="tags">
+                            <a href="#">General</a>
+                            <a href="#">Design</a>
+                            <a href="#">jQuery</a>
+                            <a href="#">Branding</a>
+                            <a href="#">Modern</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Quotes</a>
+                            <a href="#">Advertisement</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<%= render 'shared/footer' %>

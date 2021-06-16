@@ -2870,3 +2870,177 @@
 [2021-06-16 22:54:18 +0530 master (15752)] INFO : Installing notification based Action View instrumentation
 [2021-06-16 22:54:19 +0530 master (15752)] INFO : Finished instrumentation
 [2021-06-16 22:54:19 +0530 master (15752)] INFO : Starting Agent shutdown
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Starting the New Relic agent version 7.0.0 in "development" environment.
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Reading configuration from config/newrelic.yml (/root/rails/check)
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Environment: development
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : No known dispatcher detected.
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Application: Check-site (Development)
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing ActiveJob instrumentation
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing notifications based Active Record instrumentation
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing ActiveStorage 5 instrumentation
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing Net:HTTP Wrappers
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing New Relic supported NetHTTP instrumentation using MethodChaining
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing Rails 3+ middleware instrumentation
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing notifications based Action Cable instrumentation
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing notifications based Action Controller instrumentation
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Installing notification based Action View instrumentation
+[2021-06-16 23:09:19 +0530 master (18356)] INFO : Finished instrumentation
+[2021-06-16 23:09:21 +0530 master (18372)] INFO : Starting Agent shutdown
+[2021-06-16 23:09:21 +0530 master (18356)] INFO : Starting Agent shutdown
+[2021-06-16 23:09:22 +0530 master (18380)] INFO : Starting the New Relic agent version 7.0.0 in "development" environment.
+[2021-06-16 23:09:22 +0530 master (18380)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2021-06-16 23:09:22 +0530 master (18380)] INFO : Reading configuration from config/newrelic.yml (/root/rails/check)
+[2021-06-16 23:09:22 +0530 master (18380)] INFO : Environment: development
+[2021-06-16 23:09:22 +0530 master (18380)] INFO : No known dispatcher detected.
+[2021-06-16 23:09:22 +0530 master (18380)] INFO : Application: Check-site (Development)
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing ActiveJob instrumentation
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing notifications based Active Record instrumentation
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing ActiveStorage 5 instrumentation
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing Net:HTTP Wrappers
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing New Relic supported NetHTTP instrumentation using MethodChaining
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing Rails 3+ middleware instrumentation
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing notifications based Action Cable instrumentation
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing notifications based Action Controller instrumentation
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Installing notification based Action View instrumentation
+[2021-06-16 23:09:23 +0530 master (18380)] INFO : Finished instrumentation
+[2021-06-16 23:09:26 +0530 master (18380)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3187092/applications/904668250
+[2021-06-16 23:11:24 +0530 master (18797)] INFO : Starting Agent shutdown
+[2021-06-16 23:11:26 +0530 master (18380)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[2021-06-16 23:11:26 +0530 master (18380)] INFO : OpenSSL::SSL::SSLError: SSL_read: wrong version number
+[2021-06-16 23:15:00 +0530 master (18380)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3187092/applications/904668250
+[2021-06-16 23:18:11 +0530 master (19926)] INFO : Starting Agent shutdown
+[2021-06-16 23:19:00 +0530 master (18380)] INFO : Unable to send metric_data data, will try again later. Error: 
+[2021-06-16 23:19:00 +0530 master (18380)] INFO : OpenSSL::SSL::SSLError: SSL_read: decryption failed or bad record mac
+[2021-06-16 23:21:38 +0530 master (18380)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3187092/applications/904668250
+[2021-06-16 23:22:48 +0530 master (9158)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[2021-06-16 23:25:15 +0530 master (9158)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[2021-06-16 23:26:41 +0530 master (18380)] INFO : Starting Agent shutdown
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Starting the New Relic agent version 7.0.0 in "development" environment.
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Reading configuration from config/newrelic.yml (/root/rails/check)
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Environment: development
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : No known dispatcher detected.
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Application: Check-site (Development)
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing ActiveJob instrumentation
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing notifications based Active Record instrumentation
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing ActiveStorage 5 instrumentation
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing Net:HTTP Wrappers
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing New Relic supported NetHTTP instrumentation using MethodChaining
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing Rails 3+ middleware instrumentation
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing notifications based Action Cable instrumentation
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing notifications based Action Controller instrumentation
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Installing notification based Action View instrumentation
+[2021-06-16 23:26:44 +0530 master (21372)] INFO : Finished instrumentation
+[2021-06-16 23:26:48 +0530 master (21372)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3187092/applications/904668250
+[2021-06-16 23:26:56 +0530 master (21439)] INFO : Starting the New Relic agent version 7.0.0 in "development" environment.
+[2021-06-16 23:26:56 +0530 master (21439)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2021-06-16 23:26:56 +0530 master (21439)] INFO : Reading configuration from config/newrelic.yml (/root/rails/check)
+[2021-06-16 23:26:56 +0530 master (21439)] INFO : Environment: development
+[2021-06-16 23:26:56 +0530 master (21439)] INFO : No known dispatcher detected.
+[2021-06-16 23:26:56 +0530 master (21439)] INFO : Application: Check-site (Development)
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing ActiveJob instrumentation
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing notifications based Active Record instrumentation
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing ActiveStorage 5 instrumentation
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing Net:HTTP Wrappers
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing New Relic supported NetHTTP instrumentation using MethodChaining
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing Rails 3+ middleware instrumentation
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing notifications based Action Cable instrumentation
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing notifications based Action Controller instrumentation
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Installing notification based Action View instrumentation
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Finished instrumentation
+[2021-06-16 23:26:57 +0530 master (21439)] INFO : Starting Agent shutdown
+[2021-06-16 23:27:00 +0530 master (21439)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3187092/applications/904668250
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Starting the New Relic agent version 7.0.0 in "development" environment.
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Reading configuration from config/newrelic.yml (/root/rails/check)
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Environment: development
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : No known dispatcher detected.
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Application: Check-site (Development)
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing ActiveJob instrumentation
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing notifications based Active Record instrumentation
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing ActiveStorage 5 instrumentation
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing Net:HTTP Wrappers
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing New Relic supported NetHTTP instrumentation using MethodChaining
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing Rails 3+ middleware instrumentation
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing notifications based Action Cable instrumentation
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing notifications based Action Controller instrumentation
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Installing notification based Action View instrumentation
+[2021-06-16 23:27:15 +0530 master (21504)] INFO : Finished instrumentation
+[2021-06-16 23:27:16 +0530 master (21504)] INFO : Starting Agent shutdown
+[2021-06-16 23:27:18 +0530 master (21504)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3187092/applications/904668250
+[2021-06-16 23:27:56 +0530 master (21372)] INFO : Starting Agent shutdown
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Starting the New Relic agent version 7.0.0 in "development" environment.
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Reading configuration from config/newrelic.yml (/root/rails/check)
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Environment: development
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : No known dispatcher detected.
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Application: Check-site (Development)
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing ActiveJob instrumentation
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing notifications based Active Record instrumentation
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing ActiveStorage 5 instrumentation
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing Net:HTTP Wrappers
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing New Relic supported NetHTTP instrumentation using MethodChaining
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing Rails 3+ middleware instrumentation
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing notifications based Action Cable instrumentation
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing notifications based Action Controller instrumentation
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Installing notification based Action View instrumentation
+[2021-06-16 23:27:58 +0530 master (21678)] INFO : Finished instrumentation
+[2021-06-16 23:28:00 +0530 master (21682)] INFO : Starting the New Relic agent version 7.0.0 in "development" environment.
+[2021-06-16 23:28:00 +0530 master (21682)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2021-06-16 23:28:00 +0530 master (21682)] INFO : Reading configuration from config/newrelic.yml (/root/rails/check)
+[2021-06-16 23:28:00 +0530 master (21682)] INFO : Environment: development
+[2021-06-16 23:28:00 +0530 master (21682)] INFO : No known dispatcher detected.
+[2021-06-16 23:28:00 +0530 master (21682)] INFO : Application: Check-site (Development)
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing ActiveJob instrumentation
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing notifications based Active Record instrumentation
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing ActiveStorage 5 instrumentation
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing Net:HTTP Wrappers
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing New Relic supported NetHTTP instrumentation using MethodChaining
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing Rails 3+ middleware instrumentation
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing notifications based Action Cable instrumentation
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing notifications based Action Controller instrumentation
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Installing notification based Action View instrumentation
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Finished instrumentation
+[2021-06-16 23:28:01 +0530 master (21682)] INFO : Starting Agent shutdown
+[2021-06-16 23:28:03 +0530 master (21678)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3187092/applications/904668250
+[2021-06-16 23:33:39 +0530 master (21678)] INFO : Reporting to: https://rpm.newrelic.com/accounts/3187092/applications/904668250
+[2021-06-16 23:45:06 +0530 master (9158)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[2021-06-16 23:53:04 +0530 master (9158)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[2021-06-16 23:53:52 +0530 master (21938)] INFO : Starting Agent shutdown
+[2021-06-16 23:53:58 +0530 master (25961)] INFO : Starting the New Relic agent version 7.0.0 in "development" environment.
+[2021-06-16 23:53:58 +0530 master (25961)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2021-06-16 23:53:58 +0530 master (25961)] INFO : Reading configuration from config/newrelic.yml (/root/rails/check)
+[2021-06-16 23:53:58 +0530 master (25961)] INFO : Environment: development
+[2021-06-16 23:53:58 +0530 master (25961)] INFO : No known dispatcher detected.
+[2021-06-16 23:53:58 +0530 master (25961)] INFO : Application: Check-site (Development)
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing ActiveJob instrumentation
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing notifications based Active Record instrumentation
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing ActiveStorage 5 instrumentation
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing Net:HTTP Wrappers
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing New Relic supported NetHTTP instrumentation using MethodChaining
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing Rails 3+ middleware instrumentation
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing notifications based Action Cable instrumentation
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing notifications based Action Controller instrumentation
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Installing notification based Action View instrumentation
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Finished instrumentation
+[2021-06-16 23:53:59 +0530 master (25961)] INFO : Starting Agent shutdown
+[2021-06-17 00:42:23 +0530 master (26302)] INFO : Starting Agent shutdown
+[2021-06-17 00:42:39 +0530 master (21678)] INFO : Unable to send metric_data data, will try again later. Error: 
+[2021-06-17 00:42:39 +0530 master (21678)] INFO : OpenSSL::SSL::SSLError: SSL_read: sslv3 alert bad record mac

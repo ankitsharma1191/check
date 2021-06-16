@@ -1,0 +1,27 @@
+<%= render 'shared/navbar' %>
+<br>
+    <% @event.each do |event| %>
+    <section>
+        <div class="container">
+
+              <div class="row">
+                    <div class="col-md-3">
+                           <%= image_tag event.image, style: "width: 250px;"%> 
+                           <b><%= link_to(event.name, event_path(event)) %></b>
+                        
+                    </div> 
+                    <br>
+                    <div class="col-md-3">
+                            <%= event.description %>
+                    </div>
+                    <div class="col-md-3">
+                      <h4>Duration</h4>
+                          <h5> <%= event.hours %> Hours</h5>
+                    </div>
+                   
+              </div>
+        </div>
+    </section>
+
+   <% end %> 
+<%= render 'shared/footer' %>	

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_02_190225) do
+ActiveRecord::Schema.define(version: 2021_06_16_174811) do
 
   create_table "active_storage_attachments", charset: "utf8mb4", force: :cascade do |t|
     t.string "name", null: false
@@ -40,6 +40,15 @@ ActiveRecord::Schema.define(version: 2021_06_02_190225) do
     t.index ["blob_id", "variation_digest"], name: "index_active_storage_variant_records_uniqueness", unique: true
   end
 
+  create_table "contacts", charset: "utf8mb4", force: :cascade do |t|
+    t.string "name"
+    t.text "email"
+    t.integer "phone"
+    t.text "msg"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "courses", charset: "utf8mb4", force: :cascade do |t|
     t.string "title"
     t.string "coursename"
@@ -60,6 +69,24 @@ ActiveRecord::Schema.define(version: 2021_06_02_190225) do
     t.text "courseoutline11"
     t.text "courseoutline12"
     t.text "courseoutline13"
+    t.integer "hours"
+  end
+
+  create_table "events", charset: "utf8mb4", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.text "content1"
+    t.text "content2"
+    t.text "content3"
+    t.text "content4"
+    t.text "content5"
+    t.text "content6"
+    t.text "content7"
+    t.text "content8"
+    t.text "content9"
+    t.text "content10"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
     t.integer "hours"
   end
 
