@@ -1,6 +1,10 @@
 class CourseController < ApplicationController
   def index
   	@courses = Course.all
+
+  end
+  def ceh
+     @course.ceh = Course.find(1)
   end
 
   def new

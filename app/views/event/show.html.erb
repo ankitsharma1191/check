@@ -1,16 +1,12 @@
 <meta charset="utf-8" /> 
 <%= render 'shared/navbar' %>
-
-<br>
 <section>
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
                 <div class="single_event">
                     <div class="event_img">
-                       
-                       <%= image_tag @event.image, class: "img-thumbnail" %>
-                      
+                        <%= image_tag @event.image, class: "img-thumbnail" %>
                         <div class="enroll_btn">
                             <%= link_to 'Get Enroll', new_user_registration_path, class: "btn btn-default btn-sm" %>
                         </div>
@@ -52,47 +48,21 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="event_tabs">
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="overview-tab1" data-toggle="tab" href="#overview" role="tab" aria-controls="overview" aria-selected="true">Overview</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="curriculum-tab1" data-toggle="tab" href="#curriculum" role="tab" aria-controls="curriculum" aria-selected="false">curriculum</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="instructor-tab1" data-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false">instructor</a>
-                            </li>
-                           
+                    <br>
+                   <div >
+
+                        <ul>
+                            <b> Content</b>
+                            <li> <%= @event.content1 %></li>
+                            <li> <%= @event.content2 %></li>
+                            <li> <%= @event.content3 %></li>
+                            <li> <%= @event.content4 %></li>
+                            <li> <%= @event.content5 %></li>
+                            <li> <%= @event.content6 %></li>
+                     
                         </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab1">
-                               <div class="border radius_all_5 tab_box"> <p> <%= @event.description %> </p></div>
-                            </div>
-                            <div class="tab-pane fade" id="curriculum" role="tabpanel" aria-labelledby="curriculum-tab1">
-                                <div id="accordion" class="accordion">
-                                	<p><%= @event.content1 %> </p>    
-                               	         
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab1">
-                                <div class="event_author">
-                                    <div class="author_img">
-                                        <img class="radius_all_5" src="assets/images/client_img1.jpg" alt="client_img1"/>
-                                    </div>
-                                    <div class="author_meta">
-                                        <div class="author_intro">
-                                            <h6>Kenneth </h6>
-                                            <span class="text_default"></span>
-                                        </div>
-                                        <div class="author_desc">
-                                            <p><!-- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. --></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                   </div>
                     <div class="row">
                         <div class="col-12">
                             <div class="medium_divider"></div>

@@ -1,19 +1,5 @@
 <meta charset="utf-8" /> 
 <%= render 'shared/navbar' %>
-<!-- START SECTION BREADCRUMB -->
-<section class="fixed-bg page-title-light overlay_bg_50">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-sm-6">
-                <div class="page-title">
-                    <h3 id="h1_show"><%= @course.coursename %></h2>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section>
-<!-- END SECTION BANNER -->
 
 <br>
 <section>
@@ -34,7 +20,7 @@
                     </div>
                     <div class="course_detail alert-warning">
                         <div class="course_title">
-                            <h2>Certified Ethical Hacker (CEH) </h2>
+                           <strong> <h2> <%= @course.title %> </h2></strong>
                         </div>
                         <div class="countent_detail_meta">
                             <ul>
@@ -42,7 +28,7 @@
                                     
                                 </li>
                                 <li>
-                                                                        <div class="course_cat">
+                            <div class="course_cat">
                                         <label>Categories: </label>
                                         <a href="#">Security Trainings</a>
                                     </div>

@@ -1,17 +1,12 @@
 <%= render 'shared/navbar' %>
-
-  <br>
     <% @courses.each do |course| %>
     <section>
         <div class="container">
-
               <div class="row">
                     <div class="col-md-3">
                            <%= image_tag course.image, style: "width: 250px;"%> 
-                           <b><%= link_to(course.coursename, course_path(course)) %></b>
-                        
+                           <b><%= link_to(course.coursename, course_path(course)) %></b>                        
                     </div> 
-                    <br>
                     <div class="col-md-3">
                             <%= course.description %>
                     </div>
@@ -19,10 +14,8 @@
                       <h4>Duration</h4>
                           <h5> <%= course.hours %> Hours</h5>
                     </div>
-                   
-              </div>
+          </div>
         </div>
     </section>
-
    <% end %> 
    <%= render 'shared/footer' %>

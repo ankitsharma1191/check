@@ -40,15 +40,6 @@ ActiveRecord::Schema.define(version: 2021_06_16_174811) do
     t.index ["blob_id", "variation_digest"], name: "index_active_storage_variant_records_uniqueness", unique: true
   end
 
-  create_table "contacts", charset: "utf8mb4", force: :cascade do |t|
-    t.string "name"
-    t.text "email"
-    t.integer "phone"
-    t.text "msg"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "courses", charset: "utf8mb4", force: :cascade do |t|
     t.string "title"
     t.string "coursename"
@@ -87,7 +78,7 @@ ActiveRecord::Schema.define(version: 2021_06_16_174811) do
     t.text "content10"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "hours"
+    t.integer "Time"
   end
 
   create_table "users", charset: "utf8mb4", force: :cascade do |t|

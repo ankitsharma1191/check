@@ -19,8 +19,13 @@
                             <li><a href="https://www.instagram.com/myinfotech_training/"><i class="ion-social-instagram-outline"></i></a></li>
                         </ul>
                         <ul class="list_none header_list border_list ml-1">
+                            <% if user_signed_in? %>
+                            <li><%= link_to 'Logout', destroy_user_session_path, method: :delete, class:'btn btn-default btn-sm rounded-0' %></li>
+                            
+                            <% else %>
                             <li><%= link_to 'Login', user_session_path, class: 'btn btn-default btn-sm rounded-0' %></li>
-                            <li><%= link_to 'Register', new_user_registration_path, class:'btn btn-default btn-sm rounded-0' %></li>
+                             <%end %>
+                              <li><%= link_to 'Register', new_user_registration_path, class:'btn btn-default btn-sm rounded-0' %></li>
                         </ul>
                     </div>
                 </div>
